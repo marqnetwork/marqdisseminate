@@ -1,0 +1,6021 @@
+/*------------------------------------------------------------------
+.______    __  ___   ___  __   _______  ___________    ____ 
+|   _  \  |  | \  \ /  / |  | |   ____||   ____\   \  /   / 
+|  |_)  | |  |  \  V  /  |  | |  |__   |  |__   \   \/   /  
+|   ___/  |  |   >   <   |  | |   __|  |   __|   \_    _/   
+|  |      |  |  /  .  \  |  | |  |____ |  |        |  |     
+| _|      |__| /__/ \__\ |__| |_______||__|        |__|     
+
+
+@charset "utf-8";
+
+[Main Stylesheet]
+
+Project:    Myra
+Version:    0.1
+Last change:    30.12.2017
+Primary use:    Myra - Multipurpose Minimal Landing Page Template 
+
+
+================== Font Famil Used =================
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Dancing Script', cursive;
+
+
+[Typography]
+
+Body:               14px 'Poppins', sans-serif;
+Paragraph:          'Poppins', sans-serif;
+
+Section Title:      48px/1 'Poppins', sans-serif;
+Section Description:    14px/1 'Poppins', sans-serif;
+
+/*==============================
+[Table of contents]
+
+/*===================================
+            Main Styles
+=====================================
+1. Typography
+2. Main Menu
+3. Menu Items Styles
+4. Welcome Section Area
+5. About Us Section Area
+6. Product Features
+7. Our Pricing
+8. Purchase Now
+9. Latest News
+10. Newsletter
+11. Have a question FAQ
+12. Clients Review
+13. Contact Us
+14. Google Map
+15. Read More Area
+16. Footer Bottom
+17. instagram Fed
+18. Footer
+19. Latest Collection
+20. Custom Owl
+21. Magnify Pop up 
+22. Product Page Welcome Area
+
+
+/*===================================
+      Product Landing Styles
+=====================================
+1. Product Page Welcome Area
+2. Product Page About Us
+3. Product Page Feature Section
+4. Product Page Latest Collection 
+5. Product Page Latest Blog
+6. Product Page Faq
+7. Purchase Area Bg
+8. Latest Collection Fix
+9. Purchase Now Area
+10. Contact Section
+11. Product Read More
+12. Product CLients Review 
+
+
+/*===================================
+      SEO Landing Styles
+=====================================
+1. SEO Page Welcome Section
+2. SEO Page About
+3. Our Feature 
+4. Our Pricing
+5. Special Offer
+6. Video Section Trial Demo
+7. Start a free trial
+8. Your SEO Score
+9. Latest Collection 
+10. Our Team 
+11. News Letter Area
+12. Seo Page Sinlge Review
+
+
+/*===================================
+      Event Landing Styles
+=====================================
+1. Event Page Welcome Section
+2. Event Page About Section
+3. Event Page Form
+4. What We Do
+5. Event Page Great Team
+6. Event Page Video Section
+7. Event Page Pricing
+8. Newsletter Area
+9. Contact Now Area 
+10. Connect Now 
+11. Accordion
+12. Event Page Left Side And Twitter Feed Slider Custom Owl Carousel
+13. Custom Countdown Timer
+
+
+/*===================================
+      App Landing Styles
+=====================================
+1. App Page Welcome
+2. App About
+3. Awesome Ideas
+4. Fun Factorey 
+5. Why Choosen Myra
+6. Simple Text And Image Section 
+7. App Page Feature Area 
+8. App Page Have A Question Area
+9. App Page Our Team
+10. Screen Short Section
+11. Event Management Event Page Start
+12. Event Management About Section
+13. Event management video section
+14. Event Management Become A Sponsor
+15. Event Management Map
+16. Time Line Custom Css
+17. Elastic CSS natural Product
+18. Elastic Pricing Section 
+
+
+/*===================================
+      Finance Landing Styles
+=====================================
+1. Finance Landing Defaults 
+2. Finance Banner Section
+3. Finance About Section 
+4. Finance What we do Section 
+5. Finance FAQ Section 
+6. Finance Client Section
+7. Finance Footer Section
+
+
+/*===================================
+      Watch Landing Styles
+=====================================
+1. Watch Version Default
+2. Watch Welcome Section
+3. Watch Featured Slide Section
+4. Watch Featured Grid Section
+5. Watch Video Section
+6. Watch CTA Section
+7. Watch Gallery Section
+8. Watch Newslatter Section
+9. Watch Client Review Section
+10. Watch Contact Section
+11. Watch Footer Section
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------============================================================
+  
+                              1. Typography
+
+=============================================================--------------------------------------------------------------*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+  color: #555555;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+iframe{
+    border: none;
+}
+a, b, div, ul, li{
+  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  -webkit-tap-highlight-color: transparent; 
+  -moz-outline-: none;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  color: red;
+}
+a:focus,
+a:active,
+input,
+input:hover,
+input:focus,
+input:active,
+textarea,
+textarea:hover,
+textarea:focus,
+textarea:active{
+  -moz-outline: none;
+  outline: none;
+}
+img:not([draggable]), embed, object, video{
+    max-width: 100%;
+    height: auto;
+}
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
+    outline: 0;
+  color: #222222;
+}
+img {
+    border: none;
+    max-width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+
+h2,h4{
+  font-weight: 700;
+  font-size: 48px;
+  color: #222222;
+  margin: 0;
+}
+h2 span{
+  font-size: 48px;
+  font-weight: 700;
+  color: #FF1D1D;
+}
+h4{
+  font-size: 18px;
+  font-weight: 400;
+}
+.section-heading h3{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #555555;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.section-heading h2{
+  text-transform: capitalize;
+}
+p{
+  font-weight: 300;
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.7;
+}
+strong {
+  color: #222222;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+span{
+  color: #555555;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.clear-both:before, .clear-both:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+.img-100 img{
+  display: block;
+  width: 100%;
+}
+.section-padding{
+  padding: 100px 0px;
+}
+.section-heading {
+  padding-bottom: 50px;
+}
+.seo-page-our-team-section-area.section-padding{
+  padding-bottom: 200px;
+}
+.event-page-our-pricing.section-padding{
+  padding-bottom: 350px;
+}
+.app-page-why-choose-area.section-padding{
+  padding-bottom: 150px;
+}
+.event-page-simple-txt-and-img.section-padding{
+  padding: 150px 0;
+}
+.margin-bottom-50{
+  margin-bottom: 50px;
+}
+.margin-top-50{
+  margin-top: 50px;
+}
+.margin-top-30{
+  margin-top: 30px;
+}
+.simple-btn{
+  position: relative;
+}
+.simple-btn i {
+  position: absolute;
+  font-size: 24px;
+  right: -24px;
+  top: 0px;
+  transition: all .2s ease-in;
+}
+.simple-btn:hover i{
+  right: -30px;
+}
+
+.minimal-btn.black-btn, .minimal-btn.red-btn{
+  color: #fff;
+  transition: all .4s ease-in-out;
+  text-transform: capitalize;
+}
+.section-our-pricing-area .minimal-btn.red-btn{
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+}
+.minimal-btn:hover.black-btn{
+  background-color: #fff;
+  color: #222222;
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.minimal-btn:hover.red-btn{
+  background-color: #fff;
+  color: #FF1D1D;
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.minimal-btn:hover.orange-btn {
+    background-color: #fff;
+    color: #FF6347;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.minimal-btn.yellow-btn{
+  color: #FFFFFF;
+  background-color: #FFCC00;
+  padding: 10px 35px;
+  display: inline-block;
+  transition: all .4s ease-in-out;
+}
+.minimal-btn:hover.yellow-btn{
+  background-color: #FFFFFF;
+  color: #FFCC00;
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.minimal-btn.white-btn{
+  color: #222222;
+  background-color: #fff;
+  font-weight: 400;
+  transition: all .4s ease-in-out;
+  margin-right: 15px;
+  display: inline-block;
+}
+.minimal-btn:hover.white-btn{
+  background-color: #222222;
+  color: #fff;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.slider-extra-padding{
+  padding: 20px 40px;
+}
+
+.margin-bottom-40{
+  margin-bottom: 40px;
+}
+
+.margin-bottom-90{
+  margin-bottom: 90px;
+}
+.margin-bottom-100{
+  margin-bottom: 100px;
+}
+
+.margin-minus-150 {
+    margin-top: -150px;
+}
+.myra-tbl{
+  display: table;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+.myra-tbl-c{
+  display: table-cell;
+  vertical-align: middle;
+}
+.myra-content-tbl {
+  display: table;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.myra-content-tbl-c {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Preloader */
+#myra-preloader-body {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999999999;
+}
+.myra-preloader-item {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.myra_prelader_table {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.myra_prelader_table_cell {
+  display: inline-block;
+}
+.myra_title_txt {
+  line-height: 1;
+  margin-top: 15px;
+}
+
+[class*="myra-awesome-loader-"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  color: inherit;
+  vertical-align: middle;
+  pointer-events: none;
+  font-size: 80px;
+  margin-bottom: 45px;
+  color: #FFF;
+}
+
+.myra-awesome-loader-09 {
+  background-color: currentcolor;
+  border-radius: 50%;
+  -webkit-animation: myra-awesome-loader-09 1.0s infinite ease-in-out;
+  animation: myra-awesome-loader-09 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes myra-awesome-loader-09 {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes myra-awesome-loader-09 {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0;
+  }
+}
+
+#myra-watch-clients-slider,
+#myra-watch-bottom-slider{
+  cursor: e-resize;
+}
+/*--------------------------------------------------------------===========================================================
+   
+                                  2. Main Menu
+
+===========================================================--------------------------------------------------------------*/
+
+/* Start */
+
+.myra-classic-menu {
+  display: inline-block;
+  float: right;
+  margin-right: 15px;
+}
+.myra-classic-menu li {
+  display: inline-block;
+}
+.myra-classic-menu li a {
+  display: inline-block;
+  padding: 13px 10px;
+}
+
+.main-menu-area{
+  padding: 20px 0px;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all .4s ease-in-out;
+}
+.main-menu-area.menu-bg {
+  background-color: rgb(255, 255, 255);
+}
+.logo {
+  transition: all .4s ease-in-out;
+}
+.sticky-menu{
+  -webkit-box-shadow: 0px 0px 35px -5px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 0px 35px -5px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 35px -5px rgba(0, 0, 0, 0.45);
+    background-color: rgba(255,255,255,.9);
+    padding: 10px 0px;
+    z-index: 999999;
+}
+
+
+/* Burger Full Screen Menu */
+
+/********* Start Navbar Icon Toggle ********/
+
+.myra-menu .nav-icon {
+  width: 28px;
+  height: 20px;
+  transform: rotate(0deg);
+  cursor: pointer;
+}
+
+.myra-menu .nav-icon span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #272727;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg)
+}
+
+.myra-menu .nav-icon span:nth-child(1) { 
+  top: 0px
+}
+
+.myra-menu .nav-icon span:nth-child(2) {
+  top: 8px
+}
+
+.myra-menu .nav-icon span:nth-child(3) { 
+  top: 16px 
+}
+
+.myra-menu .nav-icon.active span:nth-child(1) {
+  top: 8px;
+  background-color: #FF1D1D;
+  transform: rotate(135deg);
+}
+
+.myra-menu .nav-icon.active span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.myra-menu .nav-icon.active span:nth-child(3) {
+  top: 8px;
+  background-color: #FF1D1D;
+  transform: rotate(-135deg);
+}
+
+/********* End Navbar Icon Toggle ********/
+
+/*--------------------------------------------------------------
+   
+   3. Menu Items Styles
+
+--------------------------------------------------------------*/
+
+.myra-overlay-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: hidden;
+  z-index: -1;
+}
+.myra-overlay-menu:before {
+  content: '';
+  background: #000;
+  left: -55%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+}
+
+.myra-overlay-menu:after {
+  content: '';
+  background: #000;
+  right: -55%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  position: absolute
+}
+
+.myra-overlay-menu.open {
+  opacity: .9;
+  visibility: visible;
+  height: 100%;
+}
+.myra-overlay-menu.open:before {
+  left: 0;
+}
+.myra-overlay-menu.open:after {
+  right: 0;
+}
+.myra-overlay-menu.open li {
+  animation: fadeInRight 500ms ease forwards;
+  animation-delay: 100ms;
+}
+.myra-overlay-menu.open li:nth-of-type(2) {
+  animation-delay: 200ms;
+}
+.myra-overlay-menu.open li:nth-of-type(3) {
+  animation-delay: 300ms;
+}
+.myra-overlay-menu.open li:nth-of-type(4) {
+  animation-delay: 400ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(5) {
+  animation-delay: 500ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(6) {
+  animation-delay: 600ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(7) {
+  animation-delay: 700ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(8) {
+  animation-delay: 800ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(9) {
+  animation-delay: 900ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(10) {
+  animation-delay: 1000ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(11) {
+  animation-delay: 1100ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(12) {
+  animation-delay: 1200ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(13) {
+  animation-delay: 1300ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(14) {
+  animation-delay: 1400ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(15) {
+  animation-delay: 1500ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(16) {
+  animation-delay: 1600ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(17) {
+  animation-delay: 1700ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(18) {
+  animation-delay: 1800ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(19) {
+  animation-delay: 1900ms;
+}
+
+.myra-overlay-menu.open li:nth-of-type(20) {
+  animation-delay: 2000ms;
+}
+.myra-overlay-menu nav {
+  position: relative;
+  height: 50%;
+  top: 35%;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 100;
+  transform: translateY(-50%);
+}
+
+.myra-overlay-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+.myra-overlay-menu ul li {
+  display: block;
+  height: calc(100% / 6);
+  min-height: 50px;
+  position: relative;
+  opacity: 0;
+}
+
+.myra-overlay-menu ul li a {
+  display: block;
+  position: relative;
+  color: #FFF;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.myra-overlay-menu ul li a:focus:after,
+.myra-overlay-menu ul li a:active:after {
+  width: 100%;
+}
+
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.nav-icon, .nav-icon span,
+.myra-overlay-menu, .myra-overlay-menu:before,
+.myra-overlay-menu:after,
+.scroll::after, .scroll::before{
+  transition: all .5s ease-in-out
+}
+.menu-icon {
+  float: right;
+  padding: 10px 0;
+}
+.logo {
+  padding: 2px 0;
+}
+/*--------------------------------------------------------------
+   
+  4. Welcome Section Area
+
+--------------------------------------------------------------*/
+
+.rev_slider_wrapper {
+  min-height: 650px;
+}
+.welcome-section-area{
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  min-height: 700px;
+}
+.myra-landing-one#welcome-section:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255, 0.3);
+}
+.welcome-section-area-txt p{
+  font-size: 24px;
+  color: #222222;
+  font-weight: 400;
+}
+.welcome-section-area-txt h1{
+  font-size: 60px;
+  color: #222222;
+  margin-bottom: 60px;
+}
+.minimal-btn{
+  background-color: #222222;
+  padding: 10px 20px; 
+  font-size: 16px;
+  display: inline-block;
+  line-height: 1 !important;
+  text-transform: uppercase;
+}
+.black-btn{
+  color: #fff;
+}
+
+/* Index Page Slider */
+.hesperiden.tparrows.tp-rightarrow:before,
+.hesperiden.tparrows.tp-leftarrow:before{
+  content: "\f3d3";
+  font-family:"Ionicons";
+}
+.hesperiden.tparrows.tp-leftarrow:before {
+    content: "\f3d2";
+}
+.tp-caption.largewhitebg, .largewhitebg{
+  background-color: transparent;
+}
+.myra-landing-one#welcome-section:before{
+  background-color: transparent;
+}
+
+.rev_slider_wrapper .minimal-btn{
+  background-color: #222222;
+  padding: 15px 30px !important;
+  font-size: 18px;
+  display: inline !important;
+  line-height: 1 !important;
+}
+.rev_slider_wrapper .red-btn{
+  background-color: #FF1D1D;
+}
+#slide-2940-layer-7 {
+  font-size: 30px !important;
+  line-height: 1.5 !important;
+}
+
+
+/*--------------------------------------------------------------
+  
+  5. About Section 
+
+--------------------------------------------------------------*/
+
+
+
+.single-about-section .icon{
+  color: #FF1D1D;
+  font-size: 72px;
+}
+.margin-top-70{
+  margin-top: 70px;
+}
+
+.single-about-section h4,
+.single-about-section p{
+  margin-top: 20px;
+}
+
+.about-bottom-section-area{
+  height: 100%;
+  width: 100%;
+  background-color: #F6F6F6;
+  margin-top: 175px;
+  padding: 75px 0px 75px;
+}
+
+
+.left-side-txt{
+  text-align: justify;
+}
+
+.left-side-txt p {
+  margin-bottom: 25px;
+}
+
+.left-side-txt p:last-child {
+  margin-bottom: 0px;
+}
+
+.about-left-section h3{
+  color: #222222;
+  font-size: 36px;
+  margin-top: -175px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.left-side-txt {
+  margin-top: 135px;
+}
+
+#about-bottom-slider {
+  margin-top: -175px;
+}
+
+/*--------------------------------------------------------------
+  
+  6. Product Features
+
+--------------------------------------------------------------*/
+
+.single-feature{
+  width: 100%;
+  height: 320px;
+  border: 1px solid #CECECE;
+  border-radius: 0px;
+  position: relative;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+}
+.feature-icon{
+  margin-bottom: 40px;
+}
+.feature-icon,.feature-heading{
+  font-size: 30px;
+  color: #999999;
+  position: relative;
+  top: 120px;
+  transition: all .4s ease-in-out;
+}
+.feature-icon{
+  background-color: #fff;
+  height: 40px;
+  width: 50px;
+  margin: 0 auto;
+}
+.feature-heading h5{
+  font-size: 18px;
+  color: #222222;
+}
+
+.feature-elements{
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+.single-feature:hover{
+  border: 1px solid #FF1D1D
+}
+.single-feature:hover .feature-icon{
+  top: -20px;
+  color: #FF1D1D;
+}
+.single-feature:hover .feature-heading{
+  top: -10px;
+}
+.feature-elements{
+  opacity: 0;
+  transition: all .4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: scale(0);
+}
+.single-feature:hover .feature-elements{
+  transform: scale(1);
+  opacity: 1;
+}
+.feature-elements p{
+  margin-bottom: 30px;
+}
+.product-features-section-area.section-padding {
+  padding-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+  
+  7. Our Pricing
+
+--------------------------------------------------------------*/
+
+
+.pricing-elements{
+  width: 100%;
+  padding: 5px 5px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:    0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:         0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-elements h3{
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.pricing-elements p{
+  color: #999999;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.pricing-elements h4{
+  color: #FF1D1D;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.pricing-content{
+  width: 100%;
+  padding: 40px 35px;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:    0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-content ul li p i{
+  padding: 0 15px 0px 0px;
+}
+.pricing-content ul li p{
+  color: #777777;
+}
+
+.pricing-elements .minimal-btn{
+  display: block;
+  text-align: center;
+  padding: 12px 0px;
+  width: 80%;
+  margin: 20px auto 0;
+}
+.red-btn{
+  background-color: #FF1D1D;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+}
+
+
+.single-pricing{
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:    0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.pricing-content{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: all .4s cubic-bezier(0.42, 0, 0.51, 1.04);
+  background-color: #fff;
+}
+.single-pricing:hover .pricing-content{
+  top: 0;
+}
+
+
+/*--------------------------------------------------------------
+  
+  8. Purchase Now
+
+--------------------------------------------------------------*/
+
+
+.section-purchase-now-area{
+  background-color: #F9F9F9;
+  padding: 75px 0px;
+  position: relative;
+}
+.section-purchase-now-area:before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(img/perchase-now-area-overlay.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.purchase-now-txt p{
+  margin: 0;
+  color: #555555;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-purchase-now-area .red-btn{
+  font-size: 24px;
+}
+
+
+/*--------------------------------------------------------------
+  
+  9. Latest News
+
+--------------------------------------------------------------*/
+
+.single-blog {
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:    0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+.blog-head-section ul li{
+  display: inline-block;
+  padding: 20px 25px 20px 0px;
+}
+.blog-head-section ul li p{
+  margin: 0;
+  color: #999999;
+}
+.blog-head-section ul li p i {
+    margin-right: 10px;
+}
+.blog-head-section a h4{
+  color: #222222;
+  transition: all .4s ease-in-out;
+}
+.blog-head-section a h4:hover{
+  color: #FF1D1D;
+}
+.blog-footer p{
+  word-break: break-all;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.blog-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.blog-img:hover img {
+  transform: scale(1.1) rotate(2deg);
+}
+
+.blog-img img {
+  transition: all .4s ease;
+}
+
+
+/*--------------------------------------------------------------
+  
+  10. Newsletter
+
+--------------------------------------------------------------*/
+
+
+.section-news-letter-area{
+  background-color: #F9F9F9;
+  padding: 75px 0px;
+}
+.section-news-letter-area .section-heading h3{
+  color: #FF1D1D;
+}
+.news-letter-elements{
+  width: 70%;
+  margin: 0 auto;
+}
+.news-letter-elements h4{
+  color: #555555;
+  margin-bottom: 60px;
+  line-height: 1.5;
+}
+.news-letter-elements form{
+  display: inline-flex;
+}
+.news-letter-elements input[type="email"]{
+  background-color: #FFf;
+  padding: 15px 0px 15px 20px;
+  width: 350px;
+  border: 1px solid transparent;
+  transition: all .4s ease-in-out;
+}
+.news-letter-elements input[type="email"]:focus{
+  border-color: rgba(255, 0, 0, 0.075);
+}
+
+.news-letter-elements input[type="submit"]{
+  background-color: #FF1D1D;
+  font-size: 20px;
+  color: #fff;
+  border: 0;
+  display: inline-block;
+  padding: 15px;
+}
+.news-letter-elements p{
+  margin-bottom: 0;
+  margin-top: 30px;
+  color: #777777;
+}
+
+#news-letter .padding-right-15{
+  padding: 15px 0px 15px 15px;
+}
+
+
+
+/*--------------------------------------------------------------
+  
+  11. Have a question FAQ
+
+--------------------------------------------------------------*/
+
+
+
+.faq-ico{
+  display: inline-block;
+  font-size: 18px;
+  width: 10%;
+  float: left;
+}
+.faq-details{
+  display: inline-block;
+  width: 90%;
+}
+.faq-details h4{
+  margin-bottom: 20px;
+}
+.faq-details p{
+  word-break: break-all;
+  margin-bottom: 20px
+}
+
+
+/*--------------------------------------------------------------
+  
+  12. Clients Review
+
+--------------------------------------------------------------*/
+
+
+.clients-details-and-info{
+  background-color: #F6F6F6;
+  padding: 75px 0;
+  margin-top: -50px;
+}
+.clients-details{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.clients-img{
+  border-radius: 100%;
+  background-color: #F9F9F9;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin: 0 auto;
+}
+.clients-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+.clients-img:before,.clients-img:after{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border: 5px solid transparent;
+  border-radius: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.clients-img:after{
+  height: 120%;
+  width: 120%;
+  top: -10px;
+  left: -10px;
+  border: 5px solid #F6F6F6;
+}
+
+.clients-details h4{
+  font-size: 24px;
+  color: #222222;
+  font-family: 'Roboto', sans-serif;
+}
+.clients-details h5{
+  font-size: 14px;
+  color: #555555;
+}
+
+.clients-details ul li{
+  display: inline-block;
+  color: #FF1D1D;
+}
+.clients-details ul{
+  margin: 20px 0;
+}
+.clients-details p{
+  margin: 0;
+  line-height: 1.7;
+}
+
+#clients-slider-1 .item {
+  padding-top: 50px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 13. Contact Us
+
+--------------------------------------------------------------*/
+
+
+.contact-left-side-txt p{
+  word-break: break-all;
+    margin-bottom: 60px;
+    font-weight: 400;
+  line-height: 1.7;
+}
+.contact-left-side-txt ul li:nth-child(1) p,
+.contact-left-side-txt ul li:nth-child(2) p,
+.contact-left-side-txt ul li:nth-child(3) p,
+.contact-left-side-txt ul li:nth-child(4) p{
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.2;
+}
+.contact-left-side-txt ul li:nth-child(1) p:before,
+.contact-left-side-txt ul li:nth-child(2) p:before,
+.contact-left-side-txt ul li:nth-child(3) p:before,
+.contact-left-side-txt ul li:nth-child(4) p:before{
+  position: absolute;
+  content: "\f3a3";
+  top: -2px;
+  left: 0;
+  font-family:"Ionicons";
+  font-size: 18px;
+  color: #555555;
+}
+.contact-left-side-txt ul li:nth-child(2) p:before{
+  content: "\f132";
+}
+.contact-left-side-txt ul li:nth-child(3) p:before{
+  content: "\f4b9";
+}
+.contact-left-side-txt ul li:nth-child(4) p:before{
+  content: "\f35a";
+  top: -3px;
+}
+.contact-left-side-txt ul li:nth-child(4) p{
+  margin-bottom: 0;
+}
+
+.left-side-input-field{
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.right-side-input-field{
+  position: relative;
+  display: inline-block;
+  width: 50%;
+}
+.contact-right-side input[type="text"],
+.contact-right-side input[type="email"],
+.contact-right-side textarea{
+  padding: 10px;
+  width: 97%;
+  border: 1px solid #999999;
+  margin-bottom: 30px;
+  transition: all .4s ease-in-out;
+}
+
+.contact-right-side input[type="text"]:focus,
+.contact-right-side input[type="email"]:focus,
+.contact-right-side textarea:focus{
+  border: 1px solid #FF1D1D
+}
+
+.contact-right-side textarea{
+  resize: none;
+  width: 99%;
+}
+
+.contact-right-side input[type="submit"]{
+  background-color: #FF1D1D;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  padding: 15px
+}
+
+.contact-input{
+  position: relative;
+}
+.contact-input-txt{
+  position: absolute;
+  z-index: 1;
+  bottom: 40px;
+  pointer-events: none;
+  padding: 0px 0px 0px 12px;
+  font-weight: 300;
+  transform: translateY(0px);
+  transition: all .4s ease-in-out;
+}
+
+.is-focused .contact-input-txt,
+.is-focused.text-area .contact-input-txt{
+  transform: translateY(-35px);
+  font-size: 12px;
+  color: #FF1D1D;
+}
+.text-area .contact-input-txt{
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  pointer-events: none;
+  padding: 0px 0px 0px 12px;
+  font-weight: 300;
+  transform: translateY(0px);
+  transition: all .4s ease-in-out;
+}
+
+
+
+/*==================================================================
+  Contact Form Error/Success Styling
+  =================================================================*/
+
+div.myra_error {
+    color: red;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    font-size: 1em;
+    width: 100%;
+    height: inherit;
+    box-shadow: 0 0 black;
+    margin: 0;
+}
+
+input.myra_input_error {
+    border: 1px solid red !important;
+    transition: all .4s;
+}
+div.myra-success-message {
+    color: green;
+    margin-top: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+.myra-watch-right-side-input input.myra_input_error {
+    border: 0px solid red !important;
+    border-bottom: 1px solid red !important;
+}
+
+/* Preloader */
+span.myra-loader.myra-loader1 {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -25%);
+    bottom: 0%;
+}
+form#myra-form {
+    position: relative;
+}
+.myra-loader, .myra-loader:before, .myra-loader:after {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  border-radius: 30px;
+  border: 5px solid transparent;
+  margin-right: 10px;
+}
+
+/**
+ * Loader1
+ */
+.myra-loader1 {
+  position: relative;
+  border: 5px solid rgb(29, 70, 82);
+}
+.myra-loader1:after {
+  content:'';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  border: 5px solid transparent;
+  border-top-color:#fff;
+  animation: spin 1s linear infinite; 
+}
+
+/**
+ * Animations
+ */
+@keyframes spin {
+  0%  { transform:rotate(0deg) }
+  100% { transform:rotate(360deg) }
+}
+
+@keyframes spin-r {
+  from  { transform:rotate(0deg) }
+  to { transform:rotate(-360deg) }
+}
+
+@keyframes grow {
+  0% { transform:scaleY(1);opacity:1; }
+  50% { transform:scaleY(0.5);opacity:0.5; }
+  100% { transform:scaleY(1);opacity:1; }
+}
+
+@keyframes fade{
+  0%{ opacity:1; }
+  100%{ opacity:0.2;}
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(225deg);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  7% {
+    transform: rotate(345deg);
+    animation-timing-function: linear;
+  }
+  30% {
+    transform: rotate(455deg);
+    animation-timing-function: ease-in-out;
+  }
+  39% {
+    transform: rotate(690deg);
+    animation-timing-function: linear;
+  }
+  70% {
+    transform: rotate(815deg);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    transform: rotate(945deg);
+    animation-timing-function: ease-out;
+  }
+  76% {
+    transform: rotate(945deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(945deg);
+    opacity: 0;
+  }
+}
+
+
+form#mc-form {
+  position: relative;
+}
+form#mc-form label.mc-label {
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: 5px;
+    font-weight: normal;
+}
+.news-letter-elements form#mc-form label.mc-label {
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: -33px;
+    font-weight: normal;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 14. Google Map
+
+--------------------------------------------------------------*/
+
+
+#map-canvas{
+  width: 100%;
+  height: 400px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 15. Read More Area
+
+--------------------------------------------------------------*/
+
+
+
+.section-read-more-area{
+  background-color: #F6F6F6;
+  padding: 150px 0;
+  position: relative;
+}
+.section-read-more-area:before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(img/read-more-are-overlay.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.read-more-purchase-area{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.read-more-purchase-area i{
+  font-size: 36px;
+  color: #FF1D1D;
+}
+.read-more-purchase-area h4{
+  margin: 20px 0px;
+  font-size: 18px;
+  color: #555555;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.btn-groups{
+  display: inline-flex;
+}
+.btn-groups .black-btn {
+    margin-right: 15px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 16. Footer Bottom
+
+--------------------------------------------------------------*/
+
+
+.section-footer-bottom-area{
+  background-color: #F9F9F9;
+  padding: 75px 0;
+}
+
+.single-footer-bottom p{
+  margin-top: 20px;
+  color: #999999;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.social-list{
+  margin-top: 30px;
+}
+.social-list ul li {
+  display: inline-block;
+}
+.social-list ul li a{
+  font-size: 18px;
+  color: #999999;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 100%;
+  border: 1px solid #999999;
+  display: block;
+  transition: all .4s ease-in-out;
+}
+.social-list ul li a:hover{
+  color: #222;
+  border: 1px solid #222;
+}
+
+.single-footer-bottom h4{
+  font-size: 24px;
+  color: #222222;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.footer-bottom-menus ul li{
+  padding: 0px 0px 20px;
+}
+.footer-bottom-menus ul li a{
+  color: #999999;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 17. instagram Fed
+
+--------------------------------------------------------------*/
+
+
+.demoFeed li{
+  display: inline-block;
+  width: 31%;
+  margin-bottom: 5px;
+  margin-right: 2.33%;
+}
+
+
+
+/*--------------------------------------------------------------
+  
+ 18. Footer
+
+--------------------------------------------------------------*/
+
+
+
+.section-footer-area{
+  background-color: #F0F0F0;
+  width: 100%;
+  padding: 10px 0;
+}
+.copy-right-txt p{
+  margin: 0;
+  font-weight: 400;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 19. Latest Collection
+
+--------------------------------------------------------------*/
+
+
+.latest-collection{
+  position: relative;
+    cursor: auto;
+    overflow: hidden;
+    max-height: 400px;
+    text-align: center;
+    width: 100%;
+}
+
+.latest-collection-all-elements{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  min-height: 330px;
+  transition: all .4s ease-in-out;
+}
+
+.latest-collection-all-elements:before{
+  position: absolute;
+  content: "";
+  top: 30px;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform-origin: 0 0;
+  transform: scale(0,1);
+  transition: all .4s ease-in-out;
+}
+.latest-collection-all-elements:after{
+  position: absolute;
+  content: "";
+  top: 30px;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform-origin: 100% 50%;
+  transform: scale(1,0);
+  transition: all .4s ease-in-out;
+}
+
+.latest-collection:hover .latest-collection-all-elements:after,
+.latest-collection:hover .latest-collection-all-elements:before{
+  transform: scale(1);
+}
+
+.latest-collection img{
+  transition: all .4s ease-in-out;
+  transform: translateY(0px);
+  height: 430px;
+}
+
+.latest-collection:hover img{
+  transform: translateY(-30px);
+}
+.latest-collection:hover .latest-collection-all-elements{
+  background-color: rgba(0,0,0,.7)
+}
+
+.latest-collection-ico ul li{
+  display: inline-block;
+}
+.latest-collection-ico ul li a{
+  color: #333333;
+  font-size: 16px;
+  height: 32px;
+  width: 32px;
+  display: block;
+  border-radius: 100%;
+  background-color: #EEEEEE;
+  text-align: center;
+  line-height: 32px;
+}
+.latest-collection-txt{
+  margin-top: 30px;
+}
+.latest-collection-txt h4{
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.latest-collection-ico, .latest-collection-txt{
+  transform: translateY(-30px);
+  transition: all .4s ease-in-out;
+  opacity: 0;
+}
+.latest-collection-ico{
+  position: relative;
+}
+.latest-collection-txt{
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.latest-collection:hover .latest-collection-ico, 
+.latest-collection:hover .latest-collection-txt{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.latest-collection-ico {
+  position: relative;
+  z-index: 1;
+}
+
+
+.myra-coolection-image img{
+  width: 100%;
+  display: block;
+}
+
+.section-latest-collection-area .col-md-6{
+  padding: 0 10px;
+}
+.myra-coolection-image{
+  margin-bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+  
+ 20. Custom Owl
+
+--------------------------------------------------------------*/
+
+
+.owl-theme .owl-controls .owl-page span{
+  background-color: #EBEBEB;
+  height: 10px;
+  width: 20px;
+  border-radius: 0;
+  opacity: 1;
+  transition: all .4s ease-in-out;
+}
+.owl-theme .owl-controls .owl-page.active span{
+  background-color: #FF1D1D;
+  width: 40px;
+}
+
+.owl-pagination {
+    margin-top: 30px;
+}
+
+#clients-slider .item {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+}
+#myra-watch-bottom-slider.owl-theme .owl-controls .owl-page span{
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: #b6b6b6;
+}
+#myra-watch-bottom-slider.owl-theme .owl-controls .owl-page.active span{
+  background-color: #474747;
+}
+
+#myra-watch-bottom-slider .owl-controls.clickable{
+  text-align: right;
+  position: absolute;
+  right: 12%;
+  bottom: -5%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+#team-slider.owl-theme .owl-controls {
+  margin-top: 0;
+}
+#team-slider .owl-pagination {
+  margin-top: 0;
+}
+/*--------------------------------------------------------------
+  
+ 21. Magnify Pop up 
+
+--------------------------------------------------------------*/
+
+
+.mfp-zoom-in .mfp-with-anim {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+.mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.mfp-zoom-in.mfp-ready .mfp-with-anim {
+  opacity: 1;
+  transform: scale(1.5);
+}
+.mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+.mfp-zoom-in.mfp-removing .mfp-with-anim {
+  transform: scale(1);
+  opacity: 0;
+}
+.mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out; 
+  -moz-transition: all 0.15s ease-out; 
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out; 
+  -moz-transition: all 0.15s ease-out; 
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+
+/*--------------------------------------------------------------=====================================================
+  
+=====================================
+      Product Landing Styles
+=====================================
+
+======================================================--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+  
+ 1. Product Page Welcome Area
+
+--------------------------------------------------------------*/
+
+.product-page-welcome-area .myra-tbl {
+    text-align: left;
+}
+.product-page-welcome-area .welcome-section-area-txt h1 {
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.product-page-welcome-area .welcome-section-area-txt{
+    position: relative;
+    z-index: 1;
+}
+.minimal-btn.black-border-btn {
+    background-color: transparent;
+    border: 1px solid #222222;
+  text-transform: capitalize;
+}
+.product-page-welcome-area .welcome-section-area-txt p {
+  margin: 30px 0 50px;
+}
+.btn-groups .red-btn {
+    margin-right: 15px;
+}
+.product-page-welcome-area{
+  background-color: #FBFBFB;
+}
+.product-page-welcome-area .transparent-img-display-tbl{
+  width: 100%;
+  height: 100vh;
+}
+.welcome-section-area-txt.text-right .myra-tbl {
+  text-align: right;
+}
+
+/*--------------------------------------------------------------
+  
+ 2. Product Page About Us
+
+--------------------------------------------------------------*/
+
+
+.product-about-sections {
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.product-about-sections{
+  background-color: white;
+}
+.product-about-sections:before{
+  position: absolute;
+  content: "";
+  top: 140px;
+  left: 30px;
+  height: 300px;
+  width: 100%;
+  border: 1px dashed #222;
+  z-index: -1;
+}
+
+.product-about-section .right-side-txt h2{
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.product-about-section .right-side-txt p{
+  margin-bottom: 40px;
+  word-break: break-all;
+  width: 80%;
+}
+
+/*--------------------------------------------------------------
+  
+ 3. Product Page Feature Section
+
+--------------------------------------------------------------*/
+
+
+.product-dashed-border .single-feature{
+  border: 1px dashed #000000;
+}
+.product-dashed-border .single-feature:hover {
+    border: 1px dashed #FF1D1D;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 4. Product Page Latest Collection 
+
+--------------------------------------------------------------*/
+
+
+.latest-collection{
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+#portfolio-items-slider .item{
+    padding: 20px 10px;
+}
+.customNavigation a{
+  cursor: pointer;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 5. Product Page Latest Blog
+
+--------------------------------------------------------------*/
+
+
+.product-page-latest-blog .blog-head-section a h4 {
+    margin-top: 20px;
+}
+.product-page-latest-blog .blog-footer p {
+    margin-top: 0px;
+}
+.product-page-latest-blog .single-blog {
+    padding: 0px 0px 0px 0px;
+}
+.blog-details{
+  padding: 30px;
+}
+
+.product-page-purchase-area.section-purchase-now-area:before{
+  background-image: none;
+}
+
+.product-page-purchase-area p{
+  font-size: 24px;
+  color: #222222;
+  font-weight: 500;
+}
+
+
+
+/*--------------------------------------------------------------
+  
+ 6. Product Page Faq
+
+--------------------------------------------------------------*/
+
+
+.product-faq-img {
+  height: 340px;
+  width: 370px;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+/*--------------------------------------------------------------
+  
+ 7. Purchase Area Bg
+
+--------------------------------------------------------------*/
+
+.product-purchase-now .transparent-img-display-tbl{
+  min-height: 450px;
+}
+.product-page-purchase-area.section-purchase-now-area {
+  padding: 50px 0px;
+}
+.purchase-now {
+  height: 450px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 8. Latest Collection Fix
+
+--------------------------------------------------------------*/
+
+.product-latest-collection .latest-collection img{
+  height: 340px;
+}
+.product-latest-collection .latest-collection{
+    max-height: 330px;
+}
+.product-latest-collection .latest-collection:hover img{
+  transform: translateY(-10px);
+}
+
+
+/*--------------------------------------------------------------
+  
+ 9. Purchase Now Area
+
+--------------------------------------------------------------*/
+
+
+.product-page-purchase-area h2{
+  margin-top:30px;
+  margin-bottom :50px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 10. Contact Section
+
+--------------------------------------------------------------*/
+.about-page-contact .contact-right-side{
+  width: 70%;
+  margin: 0 auto;
+}
+.contact-details-area-start{
+  position: relative;
+  z-index: 2;
+  margin-bottom: -110px;
+}
+.contact-details-bg{
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 75px 5px;
+}
+.single-contact i{
+  color: #999999;
+  font-size: 36px;
+}
+.single-contact p{
+  color: #555555;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+/*--------------------------------------------------------------
+  
+ 11. Product Read More
+
+--------------------------------------------------------------*/
+
+.product-page-read-more.section-read-more-area:before{
+  background-image: url(img/product-page-read-more-ovrlay.png);
+}
+
+
+/*--------------------------------------------------------------
+  
+ 12. Product CLients Review 
+
+--------------------------------------------------------------*/
+.product-page-clients-review .clients-img img{
+  height: 36px;
+  width: 36px;
+  border-radius: 0;
+  margin-top: 28px;
+}
+
+.customNavigation i{
+  position: relative;
+  font-size: 30px;
+  top: 6px;
+  padding: 10px;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------======================================================
+=====================================
+      SEO Landing Styles
+=====================================
+======================================================--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  
+  1. SEO Page Welcome Section
+
+--------------------------------------------------------------*/
+.seo-page-welcome-section.welcome-section-area:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(242,242,242, .5);
+}
+
+.seo-page-welcome-section .welcome-section-area-txt {
+  position: relative;
+}
+
+
+.welcome-section-area-txt h5{
+  font-size: 18px;
+  color: #222;
+  width: 60%;
+  margin: 0 auto 30px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.seo-page-welcome-section .welcome-section-area-txt p{
+  font-size: 18px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 2. SEO Page About
+
+--------------------------------------------------------------*/
+
+.single-seo-about {
+    margin-top: 40px;
+}
+.single-seo-about i{
+  font-size: 48px;
+  color: #FF1D1D;
+}
+.single-seo-about h5{
+  font-size: 18px;
+  color: #333333;
+  font-weight: 400;
+}
+.seo-banner-slide-section #myra-banner-image-slide .myra-image-banner-item::before {
+  background-color: rgba(242, 242, 242, 0.6);
+}
+
+
+/*--------------------------------------------------------------
+  
+ 3. Our Feature 
+
+--------------------------------------------------------------*/
+
+
+.single-features-txt{
+  display: inline-block;
+  width: 80%;
+  float: left;
+}
+.single-features-ico{
+  display: inline-block;
+  width: 20%;
+  float: right;
+  position: relative;
+}
+.single-features-ico i{
+  font-size: 36px;
+  color: #FF1D1D;
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  margin-left: 10px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.single-features-ico:before{
+  position: absolute;
+  content: "";
+  height: 110%;
+  width: 98%;
+  top: 0px;
+  left: 10px;
+  background-color: #EBEBEB;
+  z-index: -1;
+}
+.left-side-txts .single-features-ico {
+  float: left;
+}
+.seo-page-our-feature-area-start .left-side-txts {
+    margin-left: -15px;
+}
+.single-features-txt h4{
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.single-features:before,.single-features:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+.seo-page-our-feature-area-start .left-side-txts .single-features-txt{
+  float: right;
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+
+
+/*--------------------------------------------------------------
+  
+ 4. Our Pricing
+
+--------------------------------------------------------------*/
+
+.pricing-elements h4 span{
+  color: #999999;
+}
+.pricing-elements i{
+  font-size: 36px;
+  color: #FF1D1D;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 5. Special Offer
+
+--------------------------------------------------------------*/
+
+
+.special-offer-ico{
+  display: inline-block;
+  width: 10%;
+  float: left;
+}
+.special-offer-ico i{
+  font-size: 36px;
+  color: #FF1D1D;
+}
+.special-offer-txt{
+  display: inline-block;
+  width: 90%;
+}
+
+.special-offer-txt p{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 6. Video Section Trial Demo
+
+--------------------------------------------------------------*/
+
+.seo-page-video-section{
+  padding: 150px 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+.seo-page-video-section:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.6);
+}
+.video-elements h2{
+  color: #fff;
+  font-size: 36px;
+}
+.video-elements p{
+  margin: 0;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.video-elements i{
+  color: #FF1D1D;
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+  display: inline-block;
+  line-height: 70px;
+  font-size: 45px;
+  border-radius: 100%;
+  text-align: center;
+}
+#video-section .ion-ios-play-outline:before {
+  margin-left: 10%;
+}
+#video-section .ion-ios-play:before {
+    margin-left: 10%;
+}
+
+
+
+/*--------------------------------------------------------------
+  
+ 7. Start a free trial
+
+--------------------------------------------------------------*/
+
+.seo-page-free-trial-area{
+  background-color: #F9F9F9;
+  padding: 100px 0;
+}
+.free-trial-elements p{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.free-trial-elements h2{
+  font-size: 36px;
+  color: #222222;
+}
+.free-trial-page-form{
+  margin-bottom: 30px;
+}
+.free-trial-page-form{
+  display: block;
+}
+
+.free-trial-page-form .input-types{
+  display: inline-block;
+}
+.free-trial-input-txts{
+  position: absolute;
+  z-index: 1;
+  bottom: 7px;
+  left: 0;
+  padding: 0px 0px 0px 15px;
+  font-weight: 300;
+  transform: translateY(0px);
+  transition: all .4s ease-in-out;
+  pointer-events: none;
+}
+
+.is-focused .free-trial-input-txts{
+  transform: translateY(-40px);
+  font-size: 12px;
+  color: #FF1D1D;
+}
+
+.fre-trial-input{
+  position: relative;
+  width: 100%;
+}
+.free-trial-page-form input[type="text"],
+.free-trial-page-form input[type="email"]{
+  width: 300px;
+  height: 40px;
+  padding: 0px 0px 0px 15px;
+  border: 1px solid #F2F2F2;
+  transition: all .4s ease-in;
+}
+.free-trial-page-form input[type="email"]{
+  width: 250px;
+}
+.free-trial-page-form input[type="text"]:focus, 
+.free-trial-page-form input[type="email"]:focus{
+  border: 1px solid #FF1D1D
+}
+.free-trial-page-form input[type="submit"]{
+  background-color: red;
+  border: 0;
+  height: 40px;
+  padding: 0px 35px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  vertical-align: bottom;
+}
+.free-trial-elements span{
+  font-size: 14px;
+  color: #777777;
+  font-weight: 300;
+  display: block;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 8. Your SEO Score
+
+--------------------------------------------------------------*/
+
+.seo-score-left-side h2,.seo-score-left-side h2 span{
+  font-weight: 400;
+  font-size: 30px;
+}
+.seo-score-left-side h2{
+  /*width: 70%;*/
+  margin-bottom: 30px;
+}
+.seo-score-left-side p{
+  /*width: 80%;*/
+  margin-bottom: 30px;
+  hyphens: auto;
+}
+.seo-score-left-side p span{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+.seo-score-right-side-form h3{
+  font-size: 18px;
+  color: #222222;
+  margin-top: 0;
+}
+.seo-score-right-side-form p{
+  margin-bottom: 30px;
+}
+.seo-score-right-side-form{
+  height: 100%;
+  width: 100%;
+  padding: 20px 25px;
+  border: 1px solid #F4F4F4;
+}
+.seo-score-right-side-form input[type="text"],.seo-score-right-side-form input[type="email"]{
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 1px solid #F4F4F4;
+  padding: 10px 0px 10px 15px;
+  transition: all .4s ease-in;
+}
+
+
+.seo-score-right-side-form input[type="submit"]{
+  border: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #FF1D1D;
+  display: block;
+  width: 100%;
+  padding: 12px;
+}
+
+.contact-inputs{
+  position: relative;
+}
+.contact-input-txts{
+  position: absolute;
+  z-index: 1;
+  bottom: 5px;
+  left: 0;
+  padding: 0px 0px 0px 16px;
+  pointer-events: none;
+  font-weight: 300;
+  transform: translateY(0px);
+  transition: all .4s ease-in-out;
+}
+
+.is-focused .contact-input-txts{
+  transform: translateY(-35px);
+  font-size: 12px;
+  color: #FF1D1D;
+}
+.seo-score-right-side-form input[type="text"]:focus,
+.seo-score-right-side-form input[type="email"]:focus{
+  border: 1px solid #FF1D1D;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 9. Latest Collection 
+
+--------------------------------------------------------------*/
+
+.latest-collections{
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.latest-collections:before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  z-index: -1;
+  transition: all .4s ease-in-out;
+}
+
+.latest-collection-seo-page-padding-10 {
+    padding: 10px;
+}
+.latest-collections:hover.latest-collections:before{
+  height: 70%;
+  box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+/*--------------------------------------------------------------
+  
+ 10. Our Team 
+
+--------------------------------------------------------------*/
+
+.team-img{
+  background-color: #F6F6F6;
+  padding: 5px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.team-img-details h3{
+  font-size: 18px;
+  color: #222222;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.team-img-details p{
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+
+.our-team-single {
+  cursor: pointer;
+  padding-bottom: 140px;
+  position: relative;
+}
+.team-img-details{
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 25px 0;
+  transition: all .4s ease-in-out;
+}
+
+.our-team-single:hover .team-img-details{
+  bottom: 60px;
+    padding: 10px;
+}
+
+.our-team-single .social-list{
+  opacity: 0;
+  transition: all .4s ease-in-out;
+  transform: translateY(20px);
+  border: 0px;
+  visibility: hidden;
+}
+.our-team-single:hover .social-list{
+  opacity: 1;
+  transform: translateY(-20px);
+  visibility: visible;
+}
+.our-team-single .social-list ul li a{
+  border: 0;
+  font-size: 18px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 11. News Letter Area
+
+--------------------------------------------------------------*/
+
+.seo-page-news-letter .news-letter-elements{
+  width: 60%
+}
+
+.seo-page-news-letter .news-letter-elements form{
+  display: block;
+}
+.seo-page-news-letter .news-letter-elements input[type="email"]{
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+}
+.seo-page-news-letter .news-letter-elements input[type="submit"]{
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+.seo-page-news-letter .news-letter-elements input[type="email"]:focus ~ .bar:before,
+.seo-page-news-letter .news-letter-elements input[type="email"]:focus ~ .bar:after{
+  box-shadow: none;
+  outline: none;
+  width: 100%;
+}
+
+.bar{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #DCDCDC;
+}
+.bar:before,.bar:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  height: 1px;
+  width: 0%;
+  background-color: #FF1D1D;
+  transform: translateX(-50%);
+  transition: all .4s ease-in-out;
+}
+.bar:after{
+  right: 50%;
+}
+.bar:before{
+  left: 50%;
+}
+
+.input-types{
+  position: relative;
+}
+.input-type-txt{
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  padding: 0px 0px 15px 0px;
+  pointer-events: none;
+  transition: all .4s ease-in-out;
+  transform: translateY(0px);
+  font-weight: 300;
+}
+.news-letter-elements input[type="email"] {
+    padding: 15px 0px 15px 0px;
+}
+.field-inputs{
+  position: relative;
+}
+
+.popup-newsletter {
+  max-width: 550px;
+  margin: auto;
+}
+.popup-newsletter form {
+  display: block !important;
+}
+.popup-newsletter input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+.popup-newsletter .input-type-txt {
+  color: #ffffff;
+}
+.popup-newsletter input[type="email"] {
+  background-color: transparent;
+  width: 100%;
+  color: #ffffff
+}
+.popup-newsletter p, .popup-newsletter form#mc-form label.mc-label {
+  color: #fff;
+}
+.popup-newsletter h4 {
+  color: #fff;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.is-focused .input-type-txt{
+  transform: translateY(-40px);
+  font-size: 12px;
+  color: #FF1D1D;
+}
+
+/**
+ * Fade-zoom animation for first dialog
+ */
+
+/* start state */
+.my-mfp-zoom-in .zoom-anim-dialog {
+  opacity: 0;
+
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out; 
+
+
+
+  -webkit-transform: scale(0.8); 
+  -moz-transform: scale(0.8); 
+  -ms-transform: scale(0.8); 
+  -o-transform: scale(0.8); 
+  transform: scale(0.8); 
+}
+
+/* animate in */
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+  opacity: 1;
+
+  -webkit-transform: scale(1); 
+  -moz-transform: scale(1); 
+  -ms-transform: scale(1); 
+  -o-transform: scale(1); 
+  transform: scale(1); 
+}
+
+/* animate out */
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+  -webkit-transform: scale(0.8); 
+  -moz-transform: scale(0.8); 
+  -ms-transform: scale(0.8); 
+  -o-transform: scale(0.8); 
+  transform: scale(0.8); 
+
+  opacity: 0;
+}
+
+/* Dark overlay, start state */
+.my-mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out; 
+  -moz-transition: opacity 0.3s ease-out; 
+  -o-transition: opacity 0.3s ease-out; 
+  transition: opacity 0.3s ease-out;
+}
+/* animate in */
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+/* animate out */
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+.mfp-close-btn-in .popup-newsletter .mfp-close {
+    color: #fff;
+    right: -50px;
+    top: -50px;
+    opacity: 1;
+}
+
+
+
+/*--------------------------------------------------------------
+  
+ 12. Seo Page Sinlge Review
+
+--------------------------------------------------------------*/
+
+
+.single-review{
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 100px;
+  position: relative;
+}
+.seo-page-clients-imgs{
+  position: absolute;
+  top: -20px;
+  left: -25px;
+}
+.seo-page-clients-imgs img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  border: 5px solid #F6F6F6;
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.single-review ul li{
+  display: inline-block;
+  color: #FF1D1D;
+  padding: 10px 5px 0 0;
+}
+
+.clients-comments p{
+  position: relative;
+  color: #999999;
+  line-height: 1.7;
+  word-break: break-all;
+  hyphens: auto;
+}
+.clients-comments p:before{
+  position: absolute;
+  content: "\f347";
+  top: -30px;
+  right: -30px;
+  color: #EFEFEF;
+  font-size: 36px;
+  font-family:"Ionicons";
+  transform: rotate(180deg);
+}
+
+.clients-review-head h3{
+  font-weight: 400;
+  color: #222222;
+  margin-top: 0;
+}
+.clients-review-head p{
+  font-weight: 400;
+}
+
+
+
+/*--------------------------------------------------------------=====================================================
+/*===================================
+      Event Landing Styles
+=====================================
+=====================================================--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+  
+  1. Event Page Welcome Section
+
+--------------------------------------------------------------*/
+.welcome-section-area-txt{
+  position: relative;   
+}
+.welcome-section-area-txt.text-center{
+  text-align: center !important;
+}
+.welcome-section-area-txt.text-left{
+  text-align: left !important;
+}
+.welcome-section-area-txt.text-right{
+  text-align: right !important;
+}
+.event-page-welcome-section .welcome-section-area-txt h1{
+  font-weight: 700;
+  margin: 40px 0;
+}
+
+.event-page-welcome-section.welcome-section-area:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255,.7);
+}
+.event-page-welcome-section.welcome-section-area .myra-tbl {
+  height: calc(100vh - 150px);
+}
+.curved-bg.welcome-section-area:after {
+  position: absolute;
+  content: "";
+  bottom: -75px;
+  right: -5%;
+  height: 150px;
+  width: 110%;
+  background-color: #fff;
+  transform: rotate(-2deg);
+}
+
+.event-page-welcome-section .minimal-btn.black-btn{
+  font-weight: 500;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 2. Event Page About Section
+
+--------------------------------------------------------------*/
+
+.margin-minus-250{
+  margin-top: -200px;
+}
+.single-about-heading h4{
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.single-about{
+  background-color: #F9F9F9;
+}
+.event-single-about-elements{
+  border-bottom: 1px solid #EAEAEA
+}
+.event-single-about-elements:last-child{
+  border-bottom: 0px solid #EAEAEA
+}
+.event-single-about-elements i{
+  font-size: 30px;
+  color: #FF6347;
+}
+.event-single-about-elements .ion-ios-albums-outline, 
+.event-single-about-elements h4{
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.event-single-about-elements i, 
+.event-single-about-elements h5{
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 0;
+    margin-bottom: 20px;
+}
+.event-single-about-elements h4{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.event-single-about-elements h5{
+  color: #222;
+}
+
+
+
+/*--------------------------------------------------------------
+  
+  3. Event Page Form
+
+--------------------------------------------------------------*/
+.event-page-form{
+  background-color: #F9F9F9;
+}
+
+
+.event-page-form input[type="text"],.event-page-form input[type="email"]{
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #F4F4F4;
+  padding: 10px 0px 10px 15px;
+  transition: all .4s ease-in;
+  background-color: transparent;
+  border-color: #999999;
+}
+
+
+.event-page-form input[type="submit"]{
+  border: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #FF6448;
+  display: block;
+  width: 100%;
+  padding: 12px;
+}
+
+.event-page-form input[type="text"]:focus,
+.event-page-form input[type="email"]:focus{
+  border-color: #FF6448;
+}
+
+.orange-color .sec-score{
+  padding: 0 20px;
+}
+.sec-score div.myra_error {
+  display: none;
+}
+.single-about-slider-heading p span{
+  font-size: 14px;
+  color: #222222;
+  font-weight: 500;
+}
+.twitter-fed i{
+  color: #FF6347;
+  font-size: 30px;
+}
+.tweet .date {
+  margin: 15px 0;
+}
+.margin-top-bottom-30{
+  margin: 30px 0;
+}
+
+.twitter-fed .tweet ul li{
+  line-height: 1.6;
+  word-break: break-word;
+  text-align: center;
+  hyphens: auto;
+}
+.twitter-fed .tweet ul li a{
+  font-weight: 500;
+}
+.single-about-slider-heading p,.single-about-heading p{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.single-about{    
+  height: 400px;
+    padding: 60px 30px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 4. What We Do
+
+--------------------------------------------------------------*/
+
+/* What We Do Feature All Setting */
+.event-single-feature{
+  width: 100%;
+  transition: all .4s ease-in-out;
+  height: 350px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+.event-wwd-singles {
+  margin-bottom: 30px;
+}
+.event-feature-icon{
+  font-size: 30px;
+}
+.event-feature-heading{
+  margin-bottom: 20px;
+}
+.event-feature-heading h5{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.all-elements{
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    transform: translateY(-50%);
+  z-index: 2;
+}
+
+/* What We Do Feature All Setting */
+
+/* What We Do Feature side Border */
+
+.event-all-elements{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.event-all-elements:before{
+  position: absolute;
+  content: "";
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  top: 0px;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  transition: all .4s ease-in-out;
+}
+.event-all-elements:after{
+  position: absolute;
+  content: "";
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  top: 0px;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  transition: all .4s ease-in-out;
+}
+
+
+.event-single-feature:hover .event-all-elements:after{
+  top: 20px;
+  left: 30px;
+  bottom: 20px;
+  right: 30px;
+}
+.event-single-feature:hover .event-all-elements:before{
+  top: 30px;
+  left: 20px;
+  bottom: 30px;
+  right: 20px;
+}
+
+/* What We Do Feature side Border */
+
+/* What We Do Feature Hover Effect */
+
+.event-single-feature .simple-btn{
+  position: relative;
+  background-color: white;
+  top: -70px;
+  left: -10px;
+  transition: all .4s ease-in-out;
+}
+.event-single-feature:hover .simple-btn{
+  top: -10px;
+  color: #FF6347;
+}
+.event-single-feature .simple-btn span{
+  transition: all .6s ease-in-out .2s;
+}
+.event-single-feature:hover .simple-btn span{
+  color: #FF6347;
+}
+
+.event-feature-icon, .event-feature-heading{
+  position: relative;
+  top: 0;
+  transition: all .4s ease-in-out;
+}
+.event-single-feature:hover .event-feature-icon, 
+.event-single-feature:hover .event-feature-heading{
+  top: -30px;
+}
+
+.event-single-feature:hover .event-feature-icon{
+  color: #FF6347;
+}
+
+.event-single-feature:hover{
+  /*box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);*/
+}
+
+.event-feature-elements p{
+  transform: scale(0);
+  transition: all .6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  opacity: 0;
+  width: 75%;
+  margin: 0 auto;
+  top: -30px;
+  position: relative;
+}
+.event-single-feature:hover .event-feature-elements p{
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* What We Do Feature Hover Effect */
+
+
+/*--------------------------------------------------------------
+  
+ 5. Event Page Great Team
+
+--------------------------------------------------------------*/
+
+.column-padding-minus-30{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.event-page-our-team .our-team-single:hover .team-img-details{
+  background-color: #F6F6F6
+}
+.event-page-our-team .team-img{
+  box-shadow: none;
+  padding: 0;
+  position: relative;
+}
+.event-page-our-team .team-img:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(246,246,246, .8);
+  opacity: 0;
+  transition: all .4s ease-in-out;
+  z-index: 1;
+}
+.event-page-our-team .our-team-single:hover .team-img:before{
+  opacity: 1;
+}
+.event-page-our-team .team-img{
+  min-height: 290px;
+  overflow: hidden;
+}
+.event-page-our-team .team-img-details {
+    z-index: 2;
+}
+.event-page-our-team .team-img img{
+  transform: translate3d(0px, 0px , 0px);
+  transition: all .4s ease-in-out;
+}
+.event-page-our-team .our-team-single:hover .team-img img{
+  transform: translate3d(0px, -25px , 0px);
+}
+
+
+/*--------------------------------------------------------------
+  
+ 6. Event Page Video Section
+
+--------------------------------------------------------------*/
+.event-page-video-section .video-elements i{
+  color: #FF6347;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 7. Event Page Pricing
+
+--------------------------------------------------------------*/
+
+.event-page-our-pricing .pricing-elements{
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  transition: all .4s ease-in-out;
+  top: 0;
+  height: 340px;
+}
+.event-page-our-pricing .pricing-content{
+  top: 0%;
+}
+.event-page-our-pricing .single-pricing {
+  overflow: visible;
+}
+.event-page-our-pricing .pricing-active .pricing-elements{
+  top: 340px;
+}
+
+.orange-color .pricing-elements h4,
+.orange-color .pricing-elements i{
+  color: #FF6347;
+}
+.orange-btn{
+  background-color: #FF6347;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+}
+
+.event-page-our-pricing .pricing-elements p{
+  width: 80%;
+  margin: 20px auto;
+}
+
+.event-page-our-pricing .pricing-content{
+  text-align: center;
+  height: 340px
+}
+.event-page-our-pricing .pricing-content ul li{
+  border-bottom: 1px solid #DCDCDC;
+}
+.event-page-our-pricing .pricing-content ul li p{
+  margin: 10px 0;
+}
+.event-page-our-pricing .pricing-content ul li:last-child{
+  border-bottom: 0px solid #DCDCDC;
+}
+.event-page-our-pricing .pricing-content{
+  box-shadow: none;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 8. Newsletter Area
+
+--------------------------------------------------------------*/
+
+.orange-color.news-letter-elements input[type="submit"]{
+  background-color: #FF6347;
+}
+.orange-color .bar:before, .orange-color .bar:after{
+  background-color: #FF6347;
+}
+.orange-color .is-focused .input-type-txt{
+  color: #FF6347;
+}
+.event-page-new-letter-area .section-heading h3 {
+    color: #FF6347;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 9. Contact Now Area 
+
+--------------------------------------------------------------*/
+
+.orange-color.contact-right-side input[type="submit"]{
+  background-color: #FF6347;
+}
+.orange-color.contact-right-side input[type="text"]:focus,
+.orange-color.contact-right-side input[type="email"]:focus,
+.orange-color.contact-right-side textarea:focus{
+  border: 1px solid #FF6347
+}
+
+.orange-color .is-focused .contact-input-txt{
+  color: #FF6347;
+}
+
+
+
+/*--------------------------------------------------------------
+  
+ 10. Connect Now 
+
+--------------------------------------------------------------*/
+
+.connect-now-area{
+  padding: 75px 0;
+  background-color: #F0F0F0;
+}
+.connect-now-txt h2{
+  font-size: 30px;
+}
+
+.connect-now-area .minimal-btn{
+  margin: 15px 0;
+  font-weight: 500;
+}
+.connect-now-area .text-center{
+  border-left: 1px solid #DCDCDC
+}
+
+
+/*--------------------------------------------------------------
+  
+  11. Accordion
+
+--------------------------------------------------------------*/
+
+.accrodian-area{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.panel-title a span{
+  font-size: 18px;
+  color: #222222;
+  font-weight: 500;
+  display: inline-block;
+  width: 90%;
+}
+
+.left-side-arrow,.right-side-arrow{
+  font-size: 24px;
+  color: #FF6347;
+  width: 5%;
+  display: block;
+  float: left;
+  margin-top: -4px;
+}
+
+.right-side-arrow{
+  float: right;
+}
+
+.panel-body p{
+  padding: 20px 40px;
+  word-break: break-all;
+  hyphens: auto;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.panel-group .panel{
+  border-radius: 0;
+}
+.panel-default>.panel-heading{
+  background-color: #FFFFFF;
+  padding: 20px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.panel-default{
+  border-color: transparent;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  border-top-color: transparent;
+}
+.collapse.in{
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.collapsed .right-side-arrow{
+  transform: rotateX(180deg);
+  transition: all .4s ease-in-out;
+}
+
+.right-side-arrow{
+  transform: rotateX(0deg);
+  transition: all .4s ease-in-out;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 12. Event Page Left Side And Twitter Feed Slider Custom Owl Carousel
+
+--------------------------------------------------------------*/
+
+#left-side-aslider .owl-pagination{
+  position: relative;
+}
+#left-side-aslider .owl-pagination{
+  margin: 0;
+  position: absolute;
+  top: -90%;
+  right: 0;
+}
+#single-about-slider.owl-theme .owl-controls .owl-page.active span,
+#twitter-fed-slider.owl-theme .owl-controls .owl-page.active span{
+  background-color: #555555;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+#single-about-slider.owl-theme .owl-controls .owl-page span,
+#twitter-fed-slider.owl-theme .owl-controls .owl-page span{
+  border:1px solid #555555;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;  
+  background-color: transparent;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 13. Custom Countdown Timer
+
+--------------------------------------------------------------*/
+
+.timer-count{
+  width: 15%;
+  display: inline-block;
+  text-align: center;
+  font-size: 48px;
+  color: #222222;
+  font-weight: 700;
+}
+
+
+.timer-text{
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #FF6347;
+  font-weight: 700;
+  display: block;
+}
+div#main-event-countdown {
+  margin-top: 80px;
+}
+
+
+
+/*--------------------------------------------- =============================================================================
+/*===================================
+      App Landing Styles
+=====================================
+-----------------------------------------------=============================================================================*/
+
+
+/*--------------------------------------------------------------
+  
+  1. App Page Welcome
+
+--------------------------------------------------------------*/
+
+.app-landing-template .myra-menu .nav-icon span {
+  background: #ffffff;
+}
+.app-landing-template header.sticky-menu .myra-menu .nav-icon span {
+  background: #222222;
+}
+.app-landing-template header.sticky-menu .myra-menu .nav-icon.active span {
+  background-color: #ff1d1d;
+}
+.app-page-welcome-section{
+  position: relative;
+}
+.app-page-welcome-section:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,44,85, .8);
+}
+.app-page-welcome-section .myra-tbl{
+  text-align: left;
+}
+.app-page-welcome-section .welcome-section-area-txt h1{
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 3.5em;
+}
+.app-page-welcome-section .welcome-section-area-txt p{
+  color: #fff;
+  font-size: 18px;
+  margin: 35px 0 63px;
+}
+.app-page-welcome-section .welcome-section-area-txt{
+  width: 90%;
+}
+.app-landing-template .logo a.logo-sticky img {
+  display: none;
+}
+.app-landing-template .sticky-menu .logo img {
+  display: none;
+}
+.app-landing-template .sticky-menu .logo a.logo-sticky img {
+  display: block;
+}
+#myra-banner-content-slide.owl-theme .owl-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+div#myra-banner-content-slide {
+  min-height: 700px;
+}
+#myra-banner-content-slide .owl-item.active .myra-banner-content-item .welcome-section-area-txt h1 {
+  -webkit-animation: fadeInRightPix 1s cubic-bezier(0.7, 0, 0.3, 1) 200ms both;
+  animation: fadeInRightPix 1s cubic-bezier(0.7, 0, 0.3, 1) 200ms both;
+}
+#myra-banner-content-slide .owl-item.active .myra-banner-content-item .welcome-section-area-txt p {
+  -webkit-animation: fadeInRightPix 1s cubic-bezier(0.7, 0, 0.3, 1) 400ms both;
+  animation: fadeInRightPix 1s cubic-bezier(0.7, 0, 0.3, 1) 400ms both;
+}
+#myra-banner-content-slide .owl-item.active .myra-banner-content-item .btn-groups {
+  -webkit-animation: fadeInRightPix 1s cubic-bezier(0.7, 0, 0.3, 1) 600ms both;
+  animation: fadeInRightPix 1s cubic-bezier(0.7, 0, 0.3, 1) 600ms both;
+}
+.product-page-welcome-area #myra-banner-content-slide .owl-item.active .myra-banner-content-item .btn-groups {
+  -webkit-animation: fadeInUpPix 1s cubic-bezier(0.7, 0, 0.3, 1) 600ms both;
+  animation: fadeInUpPix 1s cubic-bezier(0.7, 0, 0.3, 1) 600ms both;
+}
+
+#myra-banner-content-slide .owl-item.active .myra-banner-content-item .btn-groups .red-btn {
+  -webkit-animation: fadeInUpPix 1s cubic-bezier(0.7, 0, 0.3, 1) 800ms both;
+  animation: fadeInUpPix 1s cubic-bezier(0.7, 0, 0.3, 1) 600ms both;
+}
+
+#myra-banner-content-slide .owl-item.active .myra-banner-content-item .btn-groups .black-border-btn {
+  -webkit-animation: fadeInUpPix 1.2s cubic-bezier(0.7, 0, 0.3, 1) 1000ms both;
+  animation: fadeInUpPix 1.2s cubic-bezier(0.7, 0, 0.3, 1) 1000ms both;
+}
+
+#myra-banner-content-slide .owl-item.active .myra-banner-content-item .right-side-img {
+  -webkit-animation: fadeInLeftPix 1s cubic-bezier(0.7, 0, 0.3, 1) 400ms both;
+  animation: fadeInLeftPix 1s cubic-bezier(0.7, 0, 0.3, 1) 400ms both;
+}
+
+
+.fadeInUpPix {
+  animation-name: fadeInUpPix;
+}
+@keyframes fadeInUpPix {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeftPix {
+  from {
+    opacity: 0;
+    transform: translate3d(-20px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeftPix {
+  animation-name: fadeInLeftPix;
+}
+@keyframes fadeInRightPix {
+  from {
+    opacity: 0;
+    transform: translate3d(20px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRightPix {
+  animation-name: fadeInRightPix;
+}
+
+/*--------------------------------------------------------------
+  
+ 2. App About
+
+--------------------------------------------------------------*/
+
+.app-page-about-app-section-area{
+  background-color: #F9F9F9;
+  padding: 25px 0;
+}
+
+.single-about-app {
+    padding: 60px 0;
+}
+
+.about-app-icon{
+  display: block;
+  width: 20%;
+  float: left;
+  font-size: 48px;
+  color: #FF1D1D;
+}
+.about-app-txt{
+  display: block;
+  width: 80%;
+  float: right;
+}
+
+.single-about-app:before,.single-about-app:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+.border-right {
+  border-right: 1px solid #E0E0E0;
+}
+
+.about-app-txt h5{
+  color: #333333;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.about-app-txt p{
+  margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 3. Awesome Ideas
+
+--------------------------------------------------------------*/
+
+.app-page-left-side-content{
+  width: 80%;
+}
+.app-page-left-side-content h5{
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.app-page-left-side-content p {
+    font-size: 16px;
+}
+
+.app-page-left-side-content h5,
+.app-page-left-side-content p{
+  margin-bottom: 30px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 4. Fun Factorey 
+
+--------------------------------------------------------------*/
+
+.app-pagefun-factory-area{
+  background-color: #F9F9F9;
+  padding: 100px 0;
+}
+
+
+.single-fun-factory i{
+  display: inline-block;
+  font-size: 60px;
+  color: #222222;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  border: 2px solid #333333;
+  text-align: center;
+  line-height: 90px;
+}
+
+.single-fun-factory span,.single-fun-factory h4{
+  display: block;
+  font-size: 24px;
+  color: #222222;
+  margin: 20px 0;
+  font-weight: 400;
+}
+.single-fun-factory h4{
+  font-size: 30px;
+  margin: 0px 0;
+}
+
+
+
+/*--------------------------------------------------------------
+  
+ 5. Why Choosen Myra
+
+--------------------------------------------------------------*/
+
+.why-choose-icon{
+  width: 20%;
+  display: block;
+  float: left;
+}
+.why-choose-icon i{
+  font-size: 30px;
+  color: #FF1D1D;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #EEEEEE;
+  display: inline-block;
+  text-align: center;
+  line-height: 65px;
+  border: 5px solid #F6F6F6;
+}
+
+.why-choose-txt{
+  display: block;
+  width: 75%;
+  float: right;
+}
+
+.why-choose-txt h5{
+  margin-top: 0;
+  font-size: 18px;
+  color: #333333;
+}
+
+.why-choose-txt p{
+  margin-bottom: 20px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 6. Simple Text And Image Section 
+
+--------------------------------------------------------------*/
+
+.app-page-simple-img-and-txt-section{
+  position: relative;
+  padding: 20px 0;
+  min-height: 300px;
+  width: 100%;
+}
+.app-page-simple-img-and-txt-section .container{
+  position: relative;
+}
+
+.app-page-simple-img.img-100 img{
+  display: block;
+  max-width: none;
+  height: 100%;
+}
+
+.app-page-simple-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+
+.app-page-simple-txt h4{
+  font-size: 30px;
+  color: #222222;
+  font-weight: 500;
+}
+
+.app-page-simple-txt p{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  word-break: break-all;
+}
+
+.app-page-simple-img-and-txt-section.left-side .app-page-simple-img{
+  left: 50%;
+}
+.app-page-simple-img-and-txt-section.left-side .app-page-simple-txt{
+  text-align: right;
+  padding-right: 40px;
+}
+
+.app-page-simple-img-and-txt-section.right-side  .app-page-simple-txt{
+  padding-left: 40px;
+}
+
+.img-and-txt-display-tbl {
+  height: 261px;
+  display: table;
+}
+
+.app-page-simple-txt {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 7. App Page Feature Area 
+
+--------------------------------------------------------------*/
+
+.app-page-awesome-section-area{
+  background-color: #F9F9F9;
+}
+
+.app-page-featur-txt{
+  display: inline-block;
+  width: 80%;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.app-page-feature-ico{
+  display: inline-block;
+  width: 20%;
+  float: right;
+  text-align: center;
+}
+
+.app-page-feature-ico i{
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  font-size: 30px;
+  color: #FF1D1D;
+  background-color: #EBEBEB;
+  display: inline-block;
+  border-radius: 100%;
+  border: 5px solid #F3F3F3;
+}
+
+.app-page-featur-txt h4{
+  color: #333333;
+  font-weight: 500;
+}
+
+.app-page-featur-txt p{
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+
+.app-page-feature-all-elements.right-side .app-page-feature-ico{
+  float: left;
+}
+.app-page-feature-all-elements.right-side .app-page-featur-txt{
+  text-align: left;
+  padding-left: 15px;
+}
+
+
+.app-feature-page-img {
+  position: relative;
+  overflow: visible;
+  padding: 20px;
+}
+
+.app-feature-page-img:before {
+  position: absolute;
+  content: "";
+  bottom: -45px;
+  left: -150px;
+  height: 100%;
+  width: calc(100% + 300px);
+  background-image: url(img/mobile-bg-shadow.png);
+  z-index: 2;
+  background-size: cover;
+}
+
+.app-page-feature-all-elements {
+  position: relative;
+  z-index: 4;
+}
+
+.app-feature-page-img img{
+  display: block;
+  margin: 0 auto;
+}
+
+.play-store-btns.text-center {
+  position: relative;
+  z-index: 99;
+  display: inline-block;
+  width: 100%;
+  top: -75px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 8. App Page Have A Question Area
+
+--------------------------------------------------------------*/
+
+.app-page-have-a-question-area .left-side-arrow,
+.app-page-have-a-question-area .right-side-arrow{
+  color: #FF1D1D;
+}
+
+/*--------------------------------------------------------------
+  
+ 9. App Page Our Team
+
+--------------------------------------------------------------*/
+
+.app-page-our-team-section-area .item{
+  padding: 0px 15px;
+}
+
+/*--------------------------------------------------------------
+  
+ 10. Screen Short Section
+
+--------------------------------------------------------------*/
+
+.single-screen-short{
+  position: relative;
+  overflow: hidden;
+  margin: 0 5px;
+}
+.single-screen-short:before{
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.7);
+  z-index: 1;
+  opacity: 0;
+  transition: all .4s ease-in-out .2s;
+}
+.screenshort-icon{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  font-size: 60px;
+  z-index: 2;
+  opacity: 0;
+  transition: all .4s ease-in-out .2s;
+}
+.screenshort-icon i {
+  color: #ffffff;
+}
+
+.single-screen-short img{
+  transform: scale3d(1,1,1) rotate(0deg);
+  transition: all .4s ease-in-out;
+}
+.single-screen-short:hover img{
+  transform: scale3d(1.025,1.025,1.025) rotate(2deg);
+}
+.single-screen-short:hover:before{
+  top: 0%;
+  opacity: 1;
+}
+
+.single-screen-short:hover .screenshort-icon{
+  opacity: 1;
+  top: 50%;
+}
+
+
+/*--------------------------------------------------------------===========================================================
+  
+ 11. Event Management Event Page Start
+
+===========================================================--------------------------------------------------------------*/
+
+.event-management-page-welcome-section:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, .25);
+}
+.event-management-page-welcome-section .welcome-section-area-txt h1, 
+.event-management-page-welcome-section .welcome-section-area-txt p {
+  color: #fff;
+}
+.event-management-page-welcome-section .welcome-section-area-txt p {
+  font-size: 18px;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+
+.event-management-page-welcome-section .timer-count{
+  color: #FFFFFF;
+}
+.myra-banner-slide-section {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#myra-banner-image-slide, #myra-banner-image-slide .owl-wrapper-outer, .myra-image-banner-item {
+  height: 100%;
+  width: 100%;
+}
+#myra-banner-image-slide .owl-wrapper, #myra-banner-image-slide .owl-item {
+  height: 100%;
+}
+#myra-banner-image-slide .myra-image-banner-item:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0,0,0, .3);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+#myra-banner-image-slide .myra-image-banner-item {
+  background-size: cover;
+}
+.event-page-slide-section #myra-banner-image-slide .myra-image-banner-item:before {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.finance-banner-slide-section #myra-banner-image-slide .myra-image-banner-item:before {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/*--------------------------------------------------------------
+  
+ 12. Event Management About Section
+
+--------------------------------------------------------------*/
+
+.event-management-about-section.section-padding {
+  padding-bottom: 20px;
+}
+.event-management-ico{
+  display: block;
+  width: 20%;
+  float: left;
+}
+
+.event-management-txt{
+  display: block;
+  width: 79%;
+  float: right;
+}
+
+.event-management-ico i{
+  background-color: #eeeeee;
+  border: 5px solid #f6f6f6;
+  border-radius: 100%;
+  color: #ff1d1d;
+  display: inline-block;
+  font-size: 30px;
+  height: 70px;
+  line-height: 65px;
+  text-align: center;
+  width: 70px;
+}
+
+
+.event-management-txt h4{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.event-management-txt p{
+  margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+  
+ 13. Event management video section
+
+--------------------------------------------------------------*/
+
+.event-management-page-video-section.seo-page-video-section:before{
+  background-color: rgba(0,0,0, .2);
+}
+
+/*--------------------------------------------------------------
+  
+ 14. Event Management Become A Sponsor
+
+--------------------------------------------------------------*/
+
+.sponsor-area-bg{
+  background-color: #F6F6F6;
+  padding: 75px 0;
+}
+
+.become-a-sponsor-txt h3,.become-a-sponsor-txt p{
+  margin: 0;
+}
+.become-a-sponsor-txt h3{
+  font-size: 36px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.become-a-sponsor-txt p{
+  font-size: 16px;
+  font-weight: 400;
+  width: 90%;
+}
+.become-a-sponsor-txt{
+  width: 80%;
+  display: block;
+  float: left;
+}
+
+.become-a-sponsor-btn{
+  display: block;
+  width: 20%;
+  float: right;
+  padding: 44px 0 0;
+}
+.become-a-sponsor:before,.become-a-sponsor:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+.become-a-sponsor{
+  background-color: #FFFFFF;
+  margin-top: 50px;
+  padding: 75px 37px;
+  border: 2px solid #F0F0F0;
+}
+
+#sponsor-slider .item{
+  padding: 0px 15px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 15. Event Management Map
+
+--------------------------------------------------------------*/
+
+.event-management-map{
+  position: relative;
+}
+
+.map-over-element{
+  position: absolute;
+  width: 100%;
+  height: 350px;
+}
+
+.map-all-elements {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  z-index: 1;
+  height: 100%;
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.map-all-elements i{
+  font-size: 72px;
+  color: #FF1D1D;
+}
+
+.map-all-elements h3{
+  font-size: 48px;
+  color: #222222;
+}
+
+.map-all-elements h4{
+  color: #555555;
+  margin-top: 20px;
+}
+
+.map-over-contact-address{
+  margin-top: 40px;
+}
+.map-over-contact-address h4, .map-over-contact-address a{
+  margin-top: 10px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 16. Time Line Custom Css
+
+--------------------------------------------------------------*/
+
+.myra-img{
+  display: inline-block;
+  width: 20%;
+  float: left;
+}
+
+.mayra-txt{
+  display: inline-block;
+  width: 78%;
+  float: right;
+}
+
+.myra-timeline-content{
+  border: 0;
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+  background-color: #FFFFFF;
+  border-radius: 0;
+}
+
+.myra-img img{
+  border: 2px solid #F0F0F0;
+  box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.myra-timeline-content{
+  position: relative;
+}
+
+.myra-timeline-content:before{
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: #FFFFFF;
+  transform: rotate(45deg);
+  top: 55px;
+  right: -10px;
+  left: inherit;
+  z-index: -1;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.myra-timeline-img{
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  color: #FF1D1D;
+  box-shadow: none;
+  border: 2px solid #F0F0F0;
+  top: 35px;
+}
+.myra-timeline-img.myra-picture{
+  background-color: #FFFFFF;
+}
+
+.myra-timeline-content .myra-date{
+  opacity: 1;
+}
+.myra-date h3{
+  font-size: 24px;
+  color: #222222;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.myra-date p{
+  font-size: 18px;
+  color: #999999;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.myra-date p i{
+  color: #FF1D1D;
+}
+
+.mayra-txt h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #222222;
+  font-weight: 500;
+}
+.mayra-txt h2 span{
+  font-size: 14px;
+  color: #555555;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mayra-txt p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 85%;
+}
+.right-arrows{
+  position: relative;
+}
+.myra-timeline-content::before{
+  border-right-color: transparent;
+}
+.myra-timeline-block:nth-child(even) .myra-timeline-content::before{
+  top: 55px;
+  left: -10px;
+  border-right-color: transparent;
+}
+
+#myra-timeline:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: #F0F0F0;
+  z-index: 1;
+  transform: translateX(-50%);
+  border-radius: 100%;
+}
+
+.time-line-btns{
+  position: relative;
+  bottom: -28px;
+}
+.time-line-btnss{
+  font-size: 18px;
+  color: #222222;
+  font-weight: 500;
+  background-color: #F0F0F0;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+
+
+/*--------------------------------------------------------------
+  
+ 17. Elastic CSS natural Product
+
+--------------------------------------------------------------*/
+
+.elastic-section-padding{
+  padding: 200px 0;
+}
+.green-color .section-heading h2,.green-color .section-heading h3{
+  color: #6CD84E;
+}
+.bg-opacity-txt{
+  position: relative;
+}
+.bg-opacity-txt:before{
+  position: absolute;
+  content: attr(data-title);
+  font-family: 'Abril Fatface', cursive;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 30em;
+  color: #E6E6E8;
+}
+
+
+
+
+.bg-header-txt h2{
+  position: relative;
+  display: inline-block;
+  z-index: 4;
+}
+.bg-header-txt h2:before{
+  position: absolute;
+  content: attr(data-titles);
+  top: -90px;
+  left: inherit;
+  right: 50%;
+  font-size: 3em;
+  font-family: 'Abril Fatface', cursive;
+  color: #F1F1F1;
+  z-index: -1;
+  transform: translateX(50%);
+}
+
+
+
+
+.yellow-color .section-heading h2,.yellow-color .section-heading h3{
+  color: #FFCC00;
+}
+
+.elastic-left-side-element{
+  width: 70%;
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.elastic-left-side-element h3{
+  font-size: 36px;
+  color: #222222;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.elastic-left-side-element h4{
+  font-size: 36px;
+  color: #FFCC00;
+  font-weight: 700;
+}
+
+.elastic-left-side-element p{
+  margin: 20px 0;
+}
+
+.section-news-letter-area.yellow-color .section-heading h2{
+  color: #222222;
+}
+.section-news-letter-area.yellow-color .section-heading h3{
+  color: #555555;
+}
+.section-news-letter-area .bg-header-txt h2:before{
+  content: attr(data-titles);
+  z-index: -2;
+}
+
+.yellow-color .news-letter-elements input[type="submit"]{
+  background-color: #FFCC00;
+}
+
+.section-clients-review-area .bg-header-txt h2:before{
+  content: attr(data-titles);
+  z-index: -2;
+}
+
+.yellow-color .clients-details ul li{
+  color: #FFCC00;
+}
+
+.yellow-color.owl-theme .owl-controls .owl-page.active span{
+  background-color: #FFCC00;
+}
+
+.section-contact-us-area .bg-header-txt h2:before{
+  content: attr(data-titles);
+  z-index: -2;
+}
+
+.yellow-color.contact-right-side input[type="submit"]{
+  background-color: #FFCC00;
+}
+
+
+.yellow-color.contact-right-side input[type="text"]:focus,
+.yellow-color.contact-right-side input[type="email"]:focus,
+.yellow-color.contact-right-side textarea:focus{
+  border: 1px solid #FFCC00;
+}
+
+.yellow-color .is-focused .contact-input-txt{
+  color: #FFCC00;
+}
+
+.twitter-fed-slider{
+  background-color: #FFCC00;
+  padding: 70px 0;
+}
+.twitter-fed-slider i{
+  color: #fff;
+  font-size: 48px;
+  margin-bottom: 60px;
+  display: block;
+}
+
+.twitter-fed-slider ul li{
+  color: #FFFFFF;
+  font-size: 25px;
+  line-height: 1.5;
+}
+.twitter-fed-slider ul li a{
+  color: #FBEFC1;
+}
+.twitter-fed-slider .owl-theme .owl-controls .owl-page span{
+  border-radius: 0% !important;
+  border-color: #fff !important;
+}
+.twitter-fed-slider .owl-theme .owl-controls .owl-page.active span{
+  background-color: #ffffff !important;
+}
+
+/*--------------------------------------------------------------
+  
+ 18. Elastic Pricing Section 
+
+--------------------------------------------------------------*/
+
+
+.elastic-pricing-secttion .bg-header-txt h2:before{
+  content: attr(data-titles);
+  z-index: -2;
+}
+#pricing {
+  background-color: #fff;
+  background-position: center center;
+  background-size: cover;
+}
+
+div#myra-product-thumb {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+}
+
+div#pricing .container {
+  position: relative;
+}
+
+.white{
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+.box-main a{
+  margin-top: 30px;
+}
+.small-font{
+  font-size: 30px;
+  color: #fff;
+}
+.box-main h4{
+  margin-top: 30px;
+}
+.pricings .pricing .box-main.active,.pricings .pricing .box-second.active{
+  background-color: #FFCC00;
+}
+
+.white-list.text-left{
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 400;
+  list-style: square;
+}
+.white-list.text-left li{
+  margin: 20px 0;
+}
+
+.action.action--close{
+  color: #FFCC00;
+  font-size: 60px;
+  z-index: 99999;
+}
+.button{
+  background-color: #FFCC00;
+}
+
+.welcome-section-area.elastic-product-welcome-area{
+  background-color: #F1F1F1;
+  background-image: inherit;
+  padding: 20vh 0;
+  overflow: hidden;
+}
+
+.pixiefy-animated-text{
+  display: none;
+}
+.pixiefy-animated-text, .product_main_title {
+  background: #f1f1f1;
+  line-height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  z-index: -9999;
+  font-size: 10em;
+  font-family: 'Abril Fatface', cursive;
+  color: #E6E6E8;
+  padding: 0 0 10% 0;
+  transform: rotate(-90deg);
+  left: -30%;
+  letter-spacing: -5px;
+}
+
+.deco--circle-right, .deco--circle-left {
+  z-index: 99;
+}
+.navbutton,
+.slide__inner {
+  z-index: 9999;
+}
+
+
+/* Tweet */
+.myra-tweet a, .myra-tweet a span {
+  font-weight: 300;
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.5;
+}
+
+
+
+
+
+/*===================================
+      Finance Landing Styles
+=====================================
+
+/*--------------------------------------------------------------
+  
+ 1. Finance Landing Defaults 
+
+--------------------------------------------------------------*/
+/* Myra Finanace All Used Font */
+.myra-finance-welcome-section-content h5,
+.myra-finance-welcome-section-content p,
+.myra-single-what-we-do h4,
+.myra-single-what-we-do p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.myra-finance-welcome-section-content h1,
+.myra-finance-type-your-text h2,
+.myra-finance-type-your-text h2 span,
+.myra-finance-type-your-text p,
+.myra-finance-heading h2,
+.myra-finance-heading h2 span,
+.myra-finance-faq-area h2,
+.myra-finance-faq .myra-finance-faq-heading p,
+.myra-finance-faq .panel-title,
+.myra-finance-faq .panel-body p,
+.myra-finance-contact-heading h4,
+.myra-finance-contact-heading p,
+.myra-finance-contact input[type="text"],
+.myra-finance-contact input[type="email"],
+.myra-finance-contact textarea,
+.myra-finance-contact input[type="submit"],
+.myra-finance-footer p{
+  font-family: 'Raleway', sans-serif;
+}
+
+.myra-finance-clients-details h4,
+.myra-finance-clients-details h5,
+.myra-finance-clients-say-txt p{
+  font-family: TimesNewRoman,Times New Roman, serif;
+}
+
+/*--------------------------------------------------------------
+  
+ 2. Finance Banner Section 
+
+--------------------------------------------------------------*/
+.myra-finance-logo {
+  margin-bottom: 160px;
+}
+.myra-finance-welcome-section{
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #fff;
+}
+.myra-finance-welcome-section:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+}
+
+.myra-finance-welcome-section-content h5{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 31px;
+}
+
+.myra-finance-welcome-section-content h1{
+  font-size: 56px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fefefe;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.myra-finance-welcome-section-content p{
+  font-size: 16px;
+  color: #eeeeee;
+  width: 60%;
+  margin: 0 auto;
+}
+.myra-finance-welcome-section-content input{
+  margin-bottom: 40px;
+}
+.myra-finance-welcome-section-content input[type="email"]{
+  width: 402px;
+  height: 40px;
+  background-color: rgba(112,112,112,.24);
+  border: solid 1px #6e6e6e;
+  text-align: center;
+  margin-right: 15px;
+  max-width: 90%;
+}
+.myra-finance-welcome-section-content input[type="submit"]{
+  width: 130px;
+  height: 40px;
+  background-color: #fefefe;
+  border: solid 1px #a2a1a1;
+  color: #383838;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+/*--------------------------------------------------------------
+  
+ 3. Finance About Section 
+
+--------------------------------------------------------------*/
+.myra-finance-type-your-text{
+  padding: 100px 0;
+  background-color: #383838;
+  position: relative;
+}
+.myra-finance-type-your-text:before{
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #383838;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.myra-finance-type-your-text h2,
+.myra-finance-type-your-text h2 span{
+  color: #FEFEFE;
+  font-size: 30px;
+  font-weight: 100;
+}
+.myra-finance-type-your-text h2 span{
+  font-weight: 600;
+}
+.myra-finance-type-your-text h2{
+  margin-bottom: 50px;
+}
+.myra-finance-type-your-text p{
+  font-size: 16px;
+  color: #b4b4b4;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+/*--------------------------------------------------------------
+  
+ 4. Finance What we do Section 
+
+--------------------------------------------------------------*/
+.myra-finance-heading h2,
+.myra-finance-heading h2 span{
+  font-size: 60px;
+  color: #383838;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+.myra-finance-heading h2 span{
+  font-weight: 600;
+}
+.myra-finance-content-top{
+  margin-top: 150px;
+}
+.myra-single-what-we-do{
+  color: #383838;
+  transition: all .4s ease-in-out;
+  padding: 30px 0;
+}
+.myra-single-what-we-do .fs1{
+  font-size: 90px;
+  margin-bottom: 30px;
+  transition: all .4s ease-in-out;
+}
+.myra-single-what-we-do h4{
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 24px;
+  margin-bottom: 25px;
+  transition: all .4s ease-in-out;
+}
+.myra-single-what-we-do p{
+  margin-bottom: 0;
+  font-weight: 300;
+  width: 70%;
+  margin: 0 auto;
+  transition: all .4s ease-in-out;
+}
+.myra-single-what-we-do:hover{
+  background-color: #646464;
+}
+.myra-single-what-we-do:hover .fs1,
+.myra-single-what-we-do:hover h4,
+.myra-single-what-we-do:hover p{
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+  
+ 5. Finance FAQ Section 
+
+--------------------------------------------------------------*/
+.myra-finance-faq-area{
+  background-color: #383838;
+}
+
+.myra-finance-faq-area{
+  background-color: #383838;
+}
+.myra-finance-faq-area h2{
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.myra-finance-faq .myra-finance-faq-heading p{
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 80px;
+  letter-spacing: 8.6px;
+}
+.myra-finance-faq .panel-default>.panel-heading{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.myra-finance-faq .panel{
+  background-color: transparent;
+  border: 1px solid #B1B1B1;
+  box-shadow: none;
+}
+.myra-finance-faq .panel-title{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+}
+.myra-finance-faq .panel-body{
+  color: #FFFFFF;
+  font-size: 12px;
+  font-style: italic;
+}
+.myra-finance-faq .panel-title a:hover{
+  color: #fff;
+}
+.myra-finance-faq .header-active .panel-title a:hover{
+  color: #383838
+}
+.myra-finance-aco-ico {
+  display: inline-block;
+  width: 10%;
+  text-align: right;
+}
+.myra-finance-faq .header-active .panel-title .myra-finance-aco-ico:before{
+  content: "\f462";
+  transition: all .4s ease-in-out;
+  transform: rotate(0deg);
+}
+.myra-finance-faq .panel-title .myra-finance-aco-ico:before{
+  content: "\f489";
+  transform: rotate(360deg);
+  transition: all .4s ease-in-out;
+}
+.myra-finance-faq .panel-title a{
+  display: block;
+  width: 90%;
+  float: left;
+}
+
+.myra-finance-faq .panel-body p{
+  color: #FFFFFF;
+  font-size: 12px;
+  font-style: italic;
+  border-left: 1px solid #515151;
+  padding: 10px 20px;
+}
+.myra-finance-faq .panel-body{
+  margin-left: 30px;
+}
+
+.myra-finance-faq .panel-heading.header-active{
+  background-color: #fff;
+  border-radius: 0px;
+}
+.myra-finance-faq .panel.header-active-panel{
+  border: 0px solid;
+}
+.header-active .panel-title{
+  color: #383838;
+}
+.myra-finance-contact-heading h2{
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.myra-finance-contact-heading p{
+  font-size: 12px;
+  color: #FFFFFF;
+  font-weight: 400;
+  margin-bottom: 87px;
+}
+.myra-finance-contact input[type="text"],
+.myra-finance-contact input[type="email"],
+.myra-finance-contact textarea{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0,0,0,0);
+  border: solid 1px #b1b1b1;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  text-transform: capitalize;
+}
+.myra-finance-contact textarea{
+  height: 120px;
+  resize: none;
+  padding-top: 15px;
+}
+.myra-finance-contact input[type="submit"]{
+  background-color: #fff;
+  border: solid 1px #565656;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #383838;
+  display: inline-block;
+  padding: 14px 18px;
+}
+.myra-finance-contact {
+  width: 90%;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 6. Finance Client Section
+
+--------------------------------------------------------------*/
+.myra-finance-clients-details{
+  width: 100%;
+  height: 404px;
+  background-color: #383838;
+}
+.myra-finance-clients-details img{
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  margin-bottom: 50px;
+}
+.myra-finance-clients-details h4{
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-bottom: 27px;
+}
+.myra-finance-clients-details h5{
+  color: #9B9B9B;
+  font-size: 14px;
+  margin: 0;
+}
+.myra-finance-clients-say-txt{
+  width: 110%;
+  height: 300px;
+  background-color: #f2f2f2;
+  padding: 0 52px;
+  margin: 60px 0 50px -10%;
+}
+.myra-finance-clients-say-txt p{
+  margin-bottom: 0;
+  border: 1px solid #DEDEDE;
+  padding: 80px 100px;
+  position: relative;
+  color: #7B7B7B;
+}
+.myra-finance-clients-say-txt p:before{
+  position: absolute;
+  content: "\f347";
+  top: 50%;
+  left: 1%;
+  font-size: 84px;
+  font-family: "Ionicons";
+  line-height: 1;
+  transform: translate(-50%, -50%);
+  background-color: #F2F2F2;
+  display: inline-block;
+  padding: 5px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 7. Finance Footer Section
+
+--------------------------------------------------------------*/
+.myra-finance-footer{
+  background-color: #383838;
+  padding: 70px 0;
+  position: relative;
+}
+.myea-finance-back-to-top{
+  position: absolute;
+  top: 3%;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  background-color: #383838;
+  line-height: 40px;
+  text-align: center;
+  transform: rotate(45deg) translate(-50%, -50%);
+  margin-left: -20px;
+}
+.myea-finance-back-to-top a{
+  color: #656565; 
+}
+.myra-finance-footer img{
+  margin-bottom: 40px;
+}
+.myra-finance-footer .myra-finance-social{
+  margin-bottom: 40px;
+}
+.myra-finance-social ul li{
+  display: inline-block;
+  margin-right: 15px;
+}
+.myra-finance-social ul li:last-child{
+  margin-right: 0;
+}
+.myra-finance-footer p{
+  margin-bottom: 0;
+  color: #D8D7D7;
+  font-size: 18px;
+}
+.myra-finance-footer p a,
+.myra-finance-footer p span{
+  font-weight: 600;
+  color: #D8D7D7;
+}
+.myra-finance-social ul li a span{
+  font-size: 30px;
+  color: #D8D7D7;
+}
+.myra-finance-footer .ion-chevron-up:before {
+  content: "\f126";
+  transform: rotate(-45deg);
+}
+.finnace-slider i{
+  color: #d8d7d7;
+  transition: all .4s ease-in-out;
+}
+.finnace-slider i:hover{
+  color: #7b7b7b;
+}
+
+
+
+
+
+/*===================================
+      Watch Landing Styles
+=====================================
+
+/*--------------------------------------------------------------
+  
+ 1. Watch Version Default
+
+--------------------------------------------------------------*/
+/* Myra Watch Page USed Font Family */
+.myra-watch-welcome-element h1,
+.myra-watch-welcome-element p,
+.myra-watch-element-bottom-heading h2,
+.myra-watch-element-bottom-heading p,
+.myra-watch-welcome-bottom-left-content h5,
+.myra-watch-welcome-bottom-left-content p,
+.myra-watch-welcome-bottom-left-content h3,
+.myra-watch-video-section h3,
+.myra-watch-get-cunfusion-left h3,
+.myra-watch-get-cunfusion-left p,
+.watch-gallery-nav ul li a,
+.myra-watch-heading h3,
+.myra-watch-newsletter-area .input-types label,
+.myra-watch-newsletter-area input[type="submit"],
+.myra-watch-newsletter-area h3,
+.myra-watch-newsletter-area p,
+.myra-watch-clients-review-biodata h4,
+.myra-watch-clients-review-biodata h5,
+.myra-watch-clients-review-txt p,
+.myra-watch-clients-review-txt p:before,
+.myra-watch-contact-info-left,
+.myra-watch-contact-form input[type="text"],
+.myra-watch-contact-form input[type="email"],
+.myra-watch-contact-form textarea,
+.myra-watch-contact-form input[type="submit"],
+.myra-Watch-copyright-txt p,
+.myra-watch-welcome-section .minimal-btn.black-btn,
+.myra-watch-gallery .minimal-btn.black-btn,
+.myra-watch-get-cunfusion .minimal-btn.black-btn,
+.myra-watch-details h4,
+.myra-watch-details h5,
+.myra-watch-gallery-content h4,
+.myra-watch-gallery-content h5{
+  font-family: 'Roboto', sans-serif;
+}
+/*--------------------------------------------------------------
+  
+ 2. Watch Welcome Section
+
+--------------------------------------------------------------*/
+.myra-watch-welcome-section{  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+.myra-watch-welcome-section:before {
+    content: "";
+    background-color: rgba(255,255,255, .25);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.myra-watch-welcome-element{
+  height: 100vh;
+}
+.myra-watch-welcome-element .myra-content-tbl{
+  height: 100vh;
+  text-align: center;
+}
+.myra-watch-welcome-content{
+  background-color: rgba(0,0,0, .5);
+  padding: 80px 30px;
+}
+
+.myra-watch-welcome-element i{
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.myra-watch-welcome-element h1{
+  margin: 0;
+  font-size: 60px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.myra-watch-welcome-element p{
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.myra-watch-welcome-bottom-left-content{
+  height: 543px;
+}
+.myra-watch-element-bottom-heading{
+  text-align: center;
+  width: 53%;
+  margin: 0 0 0 5%;
+  transform: translateX(-5%);
+}
+.myra-watch-element-bottom-heading h2{
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.myra-watch-element-bottom-heading p{
+  color: #6C6C6C;
+  font-weight: 300;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.myra-watch-welcome-bottom-left-content h5{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.myra-watch-welcome-bottom-left-content p{
+  color: #6D6D6D;
+  font-weight: 300;
+  line-height: 2;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px; 
+}
+.myra-watch-welcome-bottom-left-content h3{
+  margin: 0;
+  color: #161616;
+  font-size: 36px;
+  font-weight: 300; 
+}
+.myra-watch-welcome-element-bottom {
+    margin-top: 70px;
+}
+.WebProduct-Title {
+    width: 450px;
+    white-space: normal !important;
+}
+/*--------------------------------------------------------------
+  
+ 3. Watch Featured Slide Section
+
+--------------------------------------------------------------*/
+.myra-watch-slider-img {
+    height: 100%;
+    overflow: hidden;
+}
+.myra-watch-slider-img img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+
+.myra-watch-slider-area.section-padding{
+  padding: 100px 0 70px
+}
+.myra-single-watch-container{
+    width: calc(100% - 30px);
+  height: 260px;
+  text-align: center;
+  border: 1px solid #EEEEEE;
+  margin-bottom: 30px;
+  position: relative;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+  
+ 4. Watch Featured Grid Section
+
+--------------------------------------------------------------*/
+.myra-watch-details{
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  background-color: #E6E6E6;
+  padding: 30px 10px;
+  display: inline-block;
+  transform: translateX(-50%);
+  width: 85%;
+  z-index: 2;
+  opacity: 0;
+  transition: all .4s ease-in-out;
+  visibility: hidden;
+}
+.myra-watch-details h4,
+.myra-watch-details h5{
+  color: #161616;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.myra-watch-details h5{
+  font-size: 24px;
+  margin: 0;
+}
+.myra-single-watch-container:hover .myra-watch-details{
+  bottom: -40%;
+  opacity: 1;
+  visibility: visible;
+}
+.myra-single-watch-container:hover{
+  border-color: #6C6C6C;
+}
+#myra-watch-slider .owl-wrapper-outer {
+  height: calc(100% + 100px);
+  padding-bottom: 100px;
+}
+.myra-watch-slider-area{
+  position: relative;
+}
+
+.myra-watch-slider-area .customNavigation .prev,
+.myra-watch-slider-area .customNavigation .next{
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.myra-watch-slider-area .customNavigation .next{
+  left: inherit;
+  right: 6%;
+}
+.myra-watch-slider-area .customNavigation i{
+  top: 0; 
+  padding: 0px; 
+  font-size: 18px;
+  color: #C8C8C8;
+  transition: all .4s ease-in-out;
+}
+.myra-watch-slider-area .customNavigation i:hover{
+  color: #000000;
+}
+
+/*--------------------------------------------------------------
+  
+ 5. Watch Video Section
+
+--------------------------------------------------------------*/
+.myra-watch-video-section h3{
+  margin: 0;
+  color: #161616;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+.myra-watch-video-bg{
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.myra-watch-video-bg:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0, .15)
+  z-index: 99;
+}
+
+.myra-watch-video-section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: auto;
+  z-index: 9;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#video-controls{
+  position: absolute;
+  bottom: 30px;
+  z-index: 999;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.video-controls-play {
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.video-controls-play button{
+  border: 0px;
+  color: #FFFFFF;
+  font-size: 48px;
+  background-color: transparent;
+  outline: none;
+}
+
+#video-controls input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: transparent;
+  background: #FFFFFF;
+  border-radius: 0px;
+  border: 0px solid;
+}
+
+#video-controls input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: transparent;
+  background: #FFFFFF;
+  border-radius: 0px;
+  border: 0px solid;
+}
+
+#video-controls input[type=range]::-ms-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: transparent;
+  background: #FFFFFF;
+  border-radius: 0px;
+  border: 0px solid;
+}
+/* Special styling for WebKit/Blink */
+#video-controls input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 0px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -5px;
+}
+
+/* All the same stuff for Firefox */
+#video-controls input[type=range]::-moz-range-thumb {
+  -webkit-appearance: none;
+  border: 0px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -5px;
+}
+
+/* All the same stuff for IE */
+#video-controls input[type=range]::-ms-thumb {
+  -webkit-appearance: none;
+  border: 0px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -5px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 6. Watch CTA Section
+
+--------------------------------------------------------------*/
+.myra-watch-get-cunfusion {
+    border-bottom: 1px solid #EAEAEA;
+}
+.myra-watch-get-cunfusion-left{
+  height: 452px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.myra-watch-get-cunfusion-left .myra-content-tbl{
+  text-align: left;
+}
+.myra-watch-get-cunfusion-left h3{
+  color: #161616;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.myra-watch-get-cunfusion-left p{
+  display: block;
+  color: #161616;
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+
+/*--------------------------------------------------------------
+  
+ 7. Watch Gallery Section
+
+--------------------------------------------------------------*/
+.myra-watch-gallery-grid-item{
+  padding: 5px;
+  overflow: hidden;
+}
+.myra-watch-gallery-grid-item img{
+  width: 100%;
+}
+.watch-gallery-nav{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    right: auto;
+    transform: translateY(-50%) translateX(-40%) rotate(-90deg);
+}
+.watch-gallery-nav ul li{
+  display: inline-block;
+  padding: 5px 30px;
+}
+.watch-gallery-nav ul li a{
+  font-size: 24px;
+  color: #383838;
+  font-weight: 300;
+  text-transform: capitalize;
+  transition: all .4s ease-in-out;
+}
+.watch-gallery-nav ul li.selected a{
+  color: #BFBFBF;
+}
+#myra-watch-gallery-item {
+    width: 90%;
+    float: right;
+    margin-bottom: 60px;
+}
+.myra-watch-heading h3{
+  font-size: 30px;
+  color: #161616;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+}
+.myra-watch-heading{
+  margin-bottom: 100px
+}
+.myra-watch-gallery .row{
+  position: relative;
+}
+
+.myra-watch-gallery-content{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255,255,255,.5);
+  padding: 25px 10px;
+  transition: all .4s ease-in-out .2s;
+  opacity: 0;
+}
+.myra-watch-gallery-content h4{
+  color: #171717;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.myra-watch-gallery-content h5{
+  color: #131313;
+  margin: 0;
+}
+
+.myra-watch-gallery-grid-item:hover .myra-watch-gallery-content{
+  bottom: 0%;
+  opacity: 1;
+}
+.myra-watch-gallery-grid-item img{
+  transition: all .4s ease-in-out;
+  transform: scale(1.1);
+}
+.watch-gallery-popup {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.myra-watch-gallery-grid-item:hover img{
+  transform: scale(1);
+}
+
+/*--------------------------------------------------------------
+  
+ 8. Watch Newslatter Section
+
+--------------------------------------------------------------*/
+.myra-watch-newsletter-area .input-types{
+  display: inline-block;
+  width: 50%;
+}
+.myra-watch-newsletter-area .input-types input[type="email"]{
+  width: 100%;
+  border: 0px solid;
+  padding: 14px 0 11px 0;
+  background-color: transparent;
+  height: 50px;
+  margin-bottom: -1px;
+}
+.myra-watch-newsletter-area .input-types label{
+  text-transform: capitalize;
+}
+.myra-watch-newsletter-area .input-types input[type="email"]:focus{
+  border: none;
+}
+.myra-watch-newsletter-area .bar{
+  background-color: #B2B2B2;
+}
+.myra-watch-newsletter-area input[type="submit"]{
+  background-color: #383838;
+  font-size: 18px;
+  color: #fff;
+  border: 0px solid;
+  padding: 16px 30px;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-left: -4px;
+  height: 50px;
+}
+.myra-watch-newsletter-area h3{
+  margin: 0;
+  margin-bottom: 15px;
+  color: #383838;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.myra-watch-newsletter-area p{
+  color: #383838;
+  margin-bottom: 30px;
+}
+.myra-watch-newsletter-area{
+  padding: 100px 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.myra-watch-newsletter-area:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255,.95);
+}
+.myra-watch-newsletter-area .is-focused .input-type-txt{
+  color: #383838;
+  transform: translateY(-20px);
+}
+
+
+/*--------------------------------------------------------------
+  
+ 9. Watch Client Review Section
+
+--------------------------------------------------------------*/
+.myra-watch-clients-review-img{
+  position: relative;
+}
+.myra-watch-clients-review-biodata{
+  position: absolute;
+  top: 108%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #848484;
+  padding: 15px 30px;
+  box-shadow:         0px 10px 20px 0px rgba(132, 132, 132, 0.5);
+}
+.myra-watch-clients-review-biodata h4{
+  margin: 0;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.myra-watch-clients-review-biodata h5{
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 300;
+}
+.myra-watch-clients-review-txt {
+    height: 344px;
+}
+.myra-watch-clients-review.section-padding{
+  padding: 100px 0 0;
+}
+.myra-watch-clients-review{
+  border-bottom: 1px solid #EAEAEA
+}
+
+
+.myra-watch-clients-review-txt p{
+  color: #161616;
+  margin: 0;
+  width: 95%;
+  position: relative;
+  margin: 0 auto;
+}
+.myra-watch-clients-review-txt p:before{
+  position: absolute;
+  content: ',,';
+  top: -50%;
+  left: 50%;
+  color: #161616;
+  font-size: 72px;
+  font-weight: 700;
+  transform: translate(-50%, -50%) rotate(180deg);
+  line-height: 1;
+}
+
+/*--------------------------------------------------------------
+  
+ 10. Watch Contact Section
+
+--------------------------------------------------------------*/
+.myra-watch-contact-info-left{
+}
+
+.myra-watch-contact-info-left h4{
+  color: #161616;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.myra-watch-contact-info-left p{
+  font-size: 18px;
+  color: #161616;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.myra-watch-left-side-input{
+  width: 50%;
+  display: inline-block;
+  float:  left;
+  padding-right: 15px;
+}
+.myra-watch-right-side-input{
+  width: 50%;
+  display: inline-block;
+  padding-left: 15px;
+  position: relative;
+}
+.myra-watch-contact-form input[type="text"],
+.myra-watch-contact-form input[type="email"],
+.myra-watch-contact-form textarea{
+  width: 100%;
+  border: 0px solid;
+  text-transform: capitalize;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 15px;
+  padding: 5px  0;
+}
+.myra-watch-contact-form textarea{
+  resize: none;
+}
+.myra-watch-contact-form input[type="submit"]{
+  padding: 15px 28px;
+  display: inline-block;
+  background-color: #383838;
+  font-size: 18px;
+  color: #fff;
+  border: 0px solid;
+  text-transform: capitalize;
+}
+.myra-watch-map #map-canvas{
+  height: 300px;
+}
+
+/*--------------------------------------------------------------
+  
+ 11. Watch Footer Section
+
+--------------------------------------------------------------*/
+.myra-Watch-footer{
+  border-top: 1px solid #EAEAEA;
+}
+.myra-Watch-social-list ul li{
+  display: inline-block;
+  padding: 5px;
+}
+.myra-Watch-social-list ul li a{
+  color: #999999;
+  font-size: 24px;
+}
+
+.myra-Watch-copyright-txt{
+  text-align: center;
+}
+.myra-Watch-copyright-txt p{
+  margin-bottom: 0;
+  color: #999999;
+}
+.myra-Watch-copyright-txt p a{
+  color: #5A5A5A;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.myra-watch-payment{
+  text-align: right;
+}
+.myra-watch-payment ul li{
+  display: inline-block;
+} 
+
+

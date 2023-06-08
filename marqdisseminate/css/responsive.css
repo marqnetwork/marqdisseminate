@@ -1,0 +1,1824 @@
+@media only screen and (max-width: 1199px) {
+
+.app-page-single-element {
+	margin-bottom: 50px;
+}
+.app-feature-page-img {
+    margin-top: -40px;
+}
+.app-feature-page-img:before {
+	display: none;
+}
+
+.pricing-content {
+    padding: 15px 15px;
+}
+.event-management-ico i {
+    border: 3px solid #f6f6f6;
+    font-size: 26px;
+    height: 60px;
+    line-height: 58px;
+    width: 60px;
+}
+.single-about {
+    padding: 60px 15px;
+}
+.myra-watch-welcome-element h1 {
+    font-size: 40px;
+}
+.myra-watch-welcome-element p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.myra-single-watch-container {
+    margin-left: 15px;
+}
+.app-page-left-side-content {
+    width: 100%;
+}
+.play-store-btns.text-center {
+    top: -40px;
+}
+.app-page-simple-img-and-txt-section.right-side .app-page-simple-txt {
+    padding-left: 25px;
+}
+.app-page-simple-img-and-txt-section.left-side .app-page-simple-txt {
+    padding-right: 25px;
+}
+.margin-top-70 {
+    margin-top: 50px;
+}
+
+
+
+
+}
+/*		Tablet Pro Layout: 992px */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+h2 {
+    font-size: 38px;
+}
+h4 {
+    font-size: 24px;
+}
+h2 span {
+    font-size: 38px;
+}
+span {
+    font-size: 16px;
+}
+.welcome-section-area, #welcome-section {
+    max-height: 700px;
+    overflow: hidden;
+}
+.app-page-welcome-section .myra-tbl, .welcome-section-area  .myra-tbl, #welcome-section .myra-tbl {
+	max-height: 700px;
+}
+.app-page-left-side-content {
+    width: 100%;
+}
+.app-page-single-element.margin-bottom-100 {
+	margin-bottom: 25px;
+}
+.app-feature-page-img:before {
+    bottom: -15px;
+}
+.play-store-btns.text-center {
+    top: -25px;
+}
+.app-page-why-choose-area.section-padding {
+    padding-bottom: 60px;
+}
+.event-page-simple-txt-and-img.section-padding, .section-read-more-area {
+    padding: 100px 0;
+}
+.pricing-content {
+    padding: 30px 15px;
+}
+.accrodian-area {
+    width: 90%;
+    margin: 0 auto;
+}
+.margin-top-70 {
+    margin-top: 40px;
+}
+.app-page-about-app-section-area, .section-padding, .app-pagefun-factory-area {
+    padding: 70px 0;
+}
+.single-fun-factory span {
+    font-size: 18px;
+}
+.single-fun-factory h4 {
+    font-size: 24px;
+}
+
+#myra-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 26px;
+    height: 100%;
+    width: 5px;
+    background: #F0F0F0;
+}
+#myra-timeline:after {
+    left: 14px;
+    transform: translateX(0%);
+}
+.myra-timeline-img {
+    line-height: 40px;
+    font-size: 24px;
+    top: 45px;
+    left: -15px;
+}
+.myra-timeline-content:before {
+    right: inherit;
+    left: -10px;
+}
+.myra-time-line-all-element .myra-img {
+    margin-right: 2%;
+}
+.myra-time-line-all-element .mayra-txt {
+    display: inline-block;
+    width: 77%;
+    float: right;
+}
+.myra-time-line-all-element .mayra-txt p {
+    width: 90%;
+    margin-bottom: 5px;
+}
+.myra-time-line-all-element .myra-date h3 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+.myra-time-line-all-element .myra-date p {
+    font-size: 16px;
+}
+.myra-finance-welcome-section-content h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+.rev-slider-thumb {
+    display: none !important;
+}
+
+
+
+}
+
+/*		Tablet Layout: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+h2 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 18px;
+}
+h2 span {
+    font-size: 36px;
+}
+span {
+    font-size: 14px;
+}
+.welcome-section-area, #welcome-section {
+    max-height: 600px;
+    min-height: 600px;
+    overflow: hidden;
+}
+.myra-classic-menu {
+    display: none;
+}
+.app-page-welcome-section .myra-tbl, .welcome-section-area  .myra-tbl, #welcome-section .myra-tbl {
+	max-height: 600px;
+}
+.app-page-left-side-content {
+    width: 100%;
+}
+.app-page-single-element.margin-bottom-100 {
+	margin-bottom: 25px;
+}
+.app-feature-page-img:before {
+    bottom: -15px;
+}
+.app-feature-page-img.margin-minus-250 {
+	margin-top: -140px;
+}
+.app-page-why-choose-area.section-padding {
+    padding-bottom: 50px;
+}
+.event-page-simple-txt-and-img.section-padding {
+    padding: 100px 0;
+}
+.pricing-content {
+    padding: 30px 15px;
+}
+.accrodian-area {
+    width: 90%;
+    margin: 0 auto;
+}
+.margin-top-70 {
+    margin-top: 40px;
+}
+div#app-banner-slide {
+    min-height: 600px;
+}
+.app-page-welcome-section .welcome-section-area-txt h1 {
+    font-size: 2.0em;
+}
+.app-page-welcome-section .welcome-section-area-txt p {
+    font-size: 14px;
+    margin: 20px 0 30px;
+}
+.minimal-btn {
+    font-size: 14px;
+}
+.app-page-awesome-section-area {
+    overflow: hidden;
+}
+.app-page-about-app-section-area, .section-padding, .app-pagefun-factory-area, .section-read-more-area {
+    padding: 60px 0;
+}
+.app-page-left-side-content h5 {
+    font-size: 16px;
+}
+.app-page-left-side-content p {
+    font-size: 14px;
+}
+.app-page-left-side-content h5, .app-page-left-side-content p {
+    margin-bottom: 15px;
+}
+.single-fun-factory span {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.single-fun-factory h4 {
+    font-size: 20px;
+}
+.single-fun-factory i {
+    font-size: 36px;
+    height: 65px;
+    width: 65px;
+    line-height: 70px;
+}
+.section-heading h3 {
+    font-size: 24px;
+}
+.section-heading {
+    padding-bottom: 20px;
+}
+.why-choose-txt h5 {
+    font-size: 16px;
+}
+.why-choose-icon i {
+    font-size: 24px;
+    height: 51px;
+    width: 52px;
+    line-height: 50px;
+    border: 3px solid #F6F6F6;
+}
+.app-page-featur-txt {
+    width: 85%;
+    padding: 0 10px;
+}
+.app-page-feature-ico {
+    width: 15%;
+}
+.app-page-feature-ico i {
+    height: 60px;
+    width: 60px;
+    line-height: 58px;
+    font-size: 24px;
+    border: 3px solid #F3F3F3;
+}
+.play-store-btns.text-center {
+    z-index: 4;
+    top: 25px;
+}
+.app-page-simple-img-and-txt-section {
+    max-height: 200px;
+    min-height: 200px;
+    padding: 0px 0;
+}
+.app-page-simple-img-and-txt-section.left-side .app-page-simple-txt {
+    padding-right: 0px;
+}
+.app-page-simple-img-and-txt-section.right-side .app-page-simple-txt {
+    padding-left: 0px;
+}
+.img-and-txt-display-tbl {
+    height: 200px;
+}
+.app-page-simple-txt h4 {
+    font-size: 20px;
+}
+.app-page-simple-txt p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.single-pricing {
+    margin-bottom: 30px;
+}
+.seo-page-news-letter .news-letter-elements, .about-page-contact .contact-right-side {
+    width: 80%;
+}
+.contact-input-txt {
+    bottom: 40px;
+}
+.welcome-section-area-txt h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.timer-count{
+  font-size: 36px;
+}
+.timer-text{
+  font-size: 18px;
+}
+.event-management-page-welcome-section .welcome-section-area-txt p{
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+.event-management-about-section .col-sm-4 {
+    padding: 0 5px;
+}
+.event-management-ico i {
+    font-size: 22px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+}
+
+#myra-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 26px;
+    height: 100%;
+    width: 5px;
+    background: #F0F0F0;
+}
+#myra-timeline:after {
+    left: 14px;
+    transform: translateX(0%);
+}
+.myra-timeline-img {
+    line-height: 40px;
+    font-size: 24px;
+    top: 45px;
+    left: -15px;
+}
+.myra-timeline-content:before {
+    right: inherit;
+    left: -10px;
+}
+.myra-time-line-all-element .myra-img {
+    margin-right: 2%;
+}
+.myra-time-line-all-element .mayra-txt {
+    display: inline-block;
+    width: 77%;
+    float: right;
+}
+.myra-time-line-all-element .mayra-txt p {
+    width: 90%;
+    margin-bottom: 5px;
+}
+.myra-time-line-all-element .myra-date h3 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+.myra-time-line-all-element .myra-date p {
+    font-size: 16px;
+}
+.event-latest-collections img {
+    width: 100%;
+    height: auto;
+}
+.sponsor-area-bg {
+    padding: 40px 0;
+}
+.become-a-sponsor {
+    margin-top: 40px;
+    padding: 40px 20px;
+}
+.become-a-sponsor-txt h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.become-a-sponsor-txt p {
+    font-size: 14px;
+}
+.map-all-elements {
+    left: 15%;
+    width: 70%;
+}
+.map-all-elements h3 {
+    font-size: 30px;
+}
+.map-over-contact-address {
+    margin-top: 20px;
+}
+.event-page-form.single-about {
+    margin-top: 30px;
+}
+.event-single-feature {
+    height: 290px;
+}
+.event-single-feature:hover .event-all-elements:before, .event-single-feature:hover .event-all-elements:after {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+.event-single-feature .event-feature-icon {
+    color: #FF6347;
+}
+.event-single-feature .event-feature-icon, .event-single-feature .event-feature-heading {
+    top: -30px;
+}
+.event-single-feature .event-feature-elements p {
+    transform: scale(1);
+    opacity: 1;
+}
+.event-single-feature .simple-btn {
+    top: -10px;
+    color: #FF6347;
+}
+
+.column-padding-minus-30 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.event-page-our-team .team-img img {
+    min-width: 100%;
+}
+.our-team-single .team-img-details {
+    bottom: 60px;
+    padding: 10px;
+}
+.our-team-single .social-list {
+    opacity: 1;
+    transform: translateY(-20px);
+    visibility: visible;
+}
+.event-page-our-pricing .pricing-elements p {
+    width: 95%;
+    margin: 10px auto;
+}
+.pricing-elements h4 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.section-our-pricing-area .minimal-btn.red-btn {
+    margin: 10px auto;
+}
+.pricing-elements h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.connect-now-txt h2 {
+    font-size: 22px;
+}
+.myra-finance-welcome-section-content h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+.myra-finance-welcome-section-content p {
+    font-size: 16px;
+    width: 80%;
+}
+.myra-finance-logo {
+    margin-bottom: 100px;
+}
+.myra-finance-type-your-text {
+    padding: 60px 0;
+}
+.myra-finance-type-your-text h2, .myra-finance-type-your-text h2 span, .myra-finance-heading h2, .myra-finance-heading h2 span, .myra-finance-faq-area h2, .myra-finance-contact-heading h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.myra-finance-content-top {
+    margin-top: 30px;
+}
+.myra-single-what-we-do .fs1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.myra-single-what-we-do h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.myra-single-what-we-do p {
+    width: 100%;
+}
+.myra-finance-faq .myra-finance-faq-heading p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    letter-spacing: 2.6px;
+}
+.myra-finance-contact-heading p {
+    margin-bottom: 25px;
+}
+.myra-finance-faq .panel-body {
+    margin-left: 0px;
+    padding: 5px;
+}
+.myra-finance-faq .panel-body p {
+    padding: 10px 10px;
+}
+.panel-default>.panel-heading {
+    padding: 15px;
+}
+.myra-finance-contact input[type="text"], .myra-finance-contact input[type="email"], .myra-finance-contact textarea {
+    height: 45px;
+}
+.myra-finance-contact input[type="submit"] {
+    font-size: 14px;
+    padding: 11px 15px;
+}
+.myra-finance-contact {
+    width: 100%;
+}
+.myra-finance-clients-details {
+    height: 304px;
+}
+.myra-finance-clients-say-txt {
+    height: 265px;
+    padding: 0 40px;
+    margin: 20px 0 20px -10%;
+}
+.myra-finance-clients-say-txt p {
+    padding: 40px 45px;
+}
+.myra-finance-clients-say-txt p:before {
+    font-size: 65px;
+}
+
+.rev-slider-thumb {
+    display: none !important;
+}
+.rev_slider_wrapper {
+    max-height: 650px !important;
+    min-height: 650px !important;
+}
+.news-letter-elements form {
+    display: inline-block;
+}
+.rev-btn {
+    font-size: 14px !important;
+    line-height: 40px !important;
+    font-weight: 400 !important;
+    padding: 0px 25px !important;
+}
+.rev_slider_wrapper .minimal-btn {
+    padding: 10px 20px !important;
+    font-weight: 400 !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+}
+.about-left-section h3 {
+    font-size: 24px;
+    margin-top: 0px;
+}
+.about-bottom-section-area {
+    margin-top: 50px;
+    padding: 40px 0px;
+}
+.left-side-txt {
+    margin-top: 30px;
+}
+.purchase-now-txt p {
+    font-size: 14px;
+}
+.section-purchase-now-area .red-btn {
+    font-size: 16px;
+}
+.blog-head-section ul li {
+    padding: 10px 3px 10px 0px;
+}
+.blog-head-section ul li p {
+    font-size: 12px;
+}
+.blog-head-section ul li p i {
+    margin-right: 0px;
+}
+.blog-footer p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.single-blog {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.news-letter-elements h4 {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.latest-collection .latest-collection-all-elements {
+    background-color: rgba(0,0,0,.7);
+}
+.latest-collection .latest-collection-all-elements:after, .latest-collection .latest-collection-all-elements:before {
+    transform: scale(1);
+}
+.latest-collection .latest-collection-ico, .latest-collection .latest-collection-txt {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.single-feature {
+    border: 1px solid #FF1D1D;
+}
+.single-feature .feature-icon {
+    top: -20px;
+    color: #FF1D1D;
+}
+.single-feature .feature-heading {
+    top: -10px;
+}
+.single-feature .feature-elements {
+    transform: scale(1);
+    opacity: 1;
+}
+#about-bottom-slider {
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+.product-faq-img {
+    height: 340px;
+    max-width: 100%;
+}
+.contact-left-side-txt p {
+    margin-bottom: 40px;
+}
+.contact-left-side-txt ul li:nth-child(1) p, .contact-left-side-txt ul li:nth-child(2) p, .contact-left-side-txt ul li:nth-child(3) p, .contact-left-side-txt ul li:nth-child(4) p {
+    margin-bottom: 25px;
+}
+
+#pixiefy-animated-text, #product_main_title {
+    top: 20%;
+    font-size: 6em;
+}
+.welcome-section-area.elastic-product-welcome-area {
+    padding: 15% 0;
+}
+
+.elastic-section-padding {
+    padding: 100px 0 50px;
+}
+.bg-header-txt h2:before {
+    top: -50px;
+    font-size: 2em;
+}
+.elastic-left-side-element {
+    width: 100%;
+    margin: 10px auto 0;
+}
+.elastic-left-side-element h3, .elastic-left-side-element h4 {
+    font-size: 32px;
+}
+div#myra-product-thumb {
+    position: static;
+    top: 0;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    left: 0;
+    margin: auto;
+}
+div#myra-product-thumb img {
+    margin: auto;
+}
+.welcome-section-area-txt p {
+    font-size: 16px;
+}
+
+.product-about-sections:before {
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    z-index: 1;
+}
+.product-about-sections {
+    position: relative;
+}
+.product-about-section .right-side-txt h2 {
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.product-about-section .right-side-txt p {
+    margin-bottom: 20px;
+    word-break: normal;
+    width: 100%;
+}
+.product-page-purchase-area h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.purchase-now {
+    height: 300px;
+}
+.blog-details {
+    padding: 10px;
+}
+.product-page-latest-blog .blog-head-section a h4 {
+    margin-top: 10px;
+}
+.contact-right-side input[type="text"], .contact-right-side input[type="email"], .contact-right-side textarea {
+    padding: 10px;
+    width: 97%;
+    border: 1px solid #999999;
+    margin-bottom: 30px;
+    transition: all .4s ease-in-out;
+}
+
+.welcome-section-area-txt h5 {
+    font-size: 16px;
+    width: 90%;
+}
+.free-trial-page-form input[type="text"], .free-trial-page-form input[type="email"] {
+    width: 200px;
+}
+.free-trial-page-form input[type="submit"] {
+    padding: 0px 25px;
+    font-size: 16px;
+}
+
+.margin-bottom-90 {
+    margin-bottom: 60px;
+}
+.seo-page-our-feature-area-start .single-features-ico {
+    float: none;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.seo-page-our-feature-area-start .left-side-txts .single-features-txt, .single-features-txt {
+    padding-left: 0px;
+    text-align: center;
+    width: 100%;
+}
+.pricing-content ul {
+    text-align: center;
+}
+
+.special-offer-ico, .special-offer-txt {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.margin-bottom-40 {
+    margin-bottom: 30px;
+}
+.special-offer-img {
+    margin-top: 30px;
+}
+.seo-score-left-side h2, .seo-score-left-side h2 span {
+    font-size: 26px;
+}
+.contact-input-txts {
+    bottom: 8px;
+}
+.team-img img {
+    width: 100%;
+}
+
+.myra-watch-welcome-element .myra-content-tbl, .myra-watch-welcome-element {
+    height: 550px;
+}
+.myra-watch-welcome-content {
+    padding: 40px 20px;
+}
+.myra-watch-welcome-element h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.myra-watch-welcome-element p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.myra-watch-welcome-element-bottom {
+    margin-top: 40px;
+}
+.myra-watch-element-bottom-heading p, .myra-watch-welcome-bottom-left-content p {
+    width: 98%;
+}
+.myra-watch-welcome-bottom-left-content {
+    height: 500px;
+}
+.myra-watch-welcome-section {
+    overflow: hidden;
+}
+.myra-single-watch-container {
+    margin-left: 15px;
+}
+.myra-watch-get-cunfusion-left {
+    height: 250px;
+    width: 100%;
+}
+.myra-watch-heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.watch-gallery-nav {
+    position: static;
+    top: 0%;
+    left: 0%;
+    right: auto;
+    transform: translateY(0%) translateX(0%) rotate(0deg);
+    text-align: center;
+    margin-bottom: 20px;
+}
+#myra-watch-gallery-item {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.myra-watch-newsletter-area, .myra-watch-clients-review.section-padding {
+    padding: 60px 0;
+}
+.myra-watch-clients-review-txt {
+    height: 300px;
+}
+.myra-watch-clients-review-txt p:before {
+    top: -5%;
+}
+.myra-watch-clients-review-txt p {
+    width: 100%;
+}
+.watch-gallery-nav ul li a {
+    font-size: 16px;
+}
+.watch-gallery-nav ul li {
+    padding: 5px 10px;
+}
+.myra-watch-video-bg {
+    height: 400px;
+}
+.myra-watch-clients-review-biodata {
+    padding: 15px 15px;
+}
+
+
+
+
+
+}
+
+
+
+/*		All Mobile Layout: 320px to 767px. */
+
+@media only screen and (max-width: 767px) {
+	
+
+h2 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 16px;
+}
+h2 span {
+    font-size: 28px;
+}
+span {
+    font-size: 14px;
+}
+.margin-top-70 {
+    margin-top: 30px;
+}
+.section-heading {
+    padding-bottom: 20px;
+}
+.myra-classic-menu {
+    display: none;
+}
+.app-page-left-side-content h5 {
+    font-size: 14px;
+}
+.app-page-left-side-content p {
+    font-size: 14px;
+}
+.app-page-left-side-content h5, .app-page-left-side-content p {
+    margin-bottom: 15px;
+}
+.sticky-menu {
+    padding: 5px 0px;
+}
+.app-page-welcome-section .welcome-section-area-txt {
+    width: 100%;
+}
+.app-page-welcome-section .welcome-section-area-txt h1 {
+    font-size: 1.7em;
+}
+.app-page-welcome-section .welcome-section-area-txt p {
+    font-size: 14px;
+    margin: 30px 0 45px;
+}
+div#app-banner-slide {
+    min-height: 500px;
+}
+.welcome-section-area, #welcome-section {
+    min-height: 500px;
+    overflow: hidden;
+}
+.app-page-welcome-section .myra-tbl, .welcome-section-area  .myra-tbl, #welcome-section .myra-tbl {
+    min-height: 500px;
+    max-height: 500px;
+}
+.minimal-btn {
+    padding: 12px 20px 10px;
+    font-size: 14px;
+}
+.app-page-about-app-section-area, .section-padding, .app-pagefun-factory-area, .event-page-simple-txt-and-img.section-padding, .myra-finance-type-your-text, .section-news-letter-area, .section-read-more-area {
+    padding: 55px 0;
+}
+.app-page-why-choose-area.section-padding {
+    padding-bottom: 55px;
+}
+.about-app-txt, .app-page-left-side-content, .about-app-icon, .why-choose-icon, .why-choose-txt, .app-page-feature-ico, .app-page-featur-txt, .accrodian-area, .seo-page-news-letter .news-letter-elements, .about-page-contact .contact-right-side, .left-side-input-field, .right-side-input-field, .event-management-ico, .event-management-txt, .news-letter-elements, .read-more-purchase-area {
+    width: 100%;
+}
+.about-app-txt, .why-choose-txt, .app-page-featur-txt, .app-page-feature-all-elements.right-side .app-page-featur-txt, .event-management-txt {
+    text-align: center;
+}
+.about-app-icon, .why-choose-icon, .app-page-feature-ico, .event-management-ico {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.single-about-app, .single-why-choose-area, .app-page-single-element, .event-management-single-about, .single-about-section {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.minimal-btn.black-btn, .minimal-btn.red-btn {
+    margin: 30px auto;
+    float: none;
+    display: block;
+    max-width: 150px;
+    text-align: center;
+}
+.app-page-right-side-content {
+    text-align: center;
+    margin-top: 30px;
+}
+.single-fun-factory {
+    margin: 15px 0;
+}
+.single-fun-factory span {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.single-fun-factory h4 {
+    font-size: 20px;
+}
+.single-fun-factory i {
+    font-size: 36px;
+    height: 65px;
+    width: 65px;
+    line-height: 70px;
+}
+.play-store-btns.text-center {
+    top: 10px;
+}
+.play-store-btns.text-center img {
+    max-width: 45%;
+}
+.app-page-simple-img {
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+}
+.app-page-simple-img-and-txt-section.right-side .app-page-simple-txt, .app-page-simple-img-and-txt-section.left-side .app-page-simple-txt {
+    padding: 0px;
+    text-align: left;
+}
+.img-and-txt-display-tbl {
+    height: auto;
+}
+.app-page-simple-txt p {
+    font-size: 14px;
+    word-break: normal;
+}
+.video-elements h2 {
+    color: #fff;
+    font-size: 26px;
+}
+.video-elements p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.single-pricing {
+    margin-bottom: 20px;
+}
+.section-heading h3 {
+    font-size: 20px;
+}
+.panel-title a span {
+    font-size: 14px;
+    font-weight: 400;
+}
+.panel-default>.panel-heading {
+    padding: 15px;
+}
+.panel-title a span {
+    font-size: 14px;
+    width: 86%;
+}
+.left-side-arrow, .right-side-arrow {
+    font-size: 20px;
+    width: 7%;
+    margin-top: -3px;
+    line-height: 28px;
+}
+.right-side-arrow {
+    line-height: 1;
+}
+.single-review {
+    padding: 55px 10px 20px;
+    position: relative;
+}
+.slider-extra-padding {
+    padding: 20px 30px;
+}
+.seo-page-clients-imgs {
+    right: -25px;
+    left: auto;
+}
+.contact-input-txt {
+    bottom: 40px;
+}
+.single-contact {
+    min-height: 140px;
+}
+.main-menu-area {
+    padding: 15px 0px;
+}
+.timer-count{
+  width: 20%;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.timer-text{
+  font-size: 20px;
+}
+.welcome-section-area-txt h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.welcome-section-area-txt p {
+    font-size: 16px;
+    color: #222222;
+    font-weight: 400;
+}
+#myra-timeline:after {
+    left: 5px;
+    transform: translateX(0%);
+}
+.myra-timeline-img {
+    line-height: 40px;
+    font-size: 24px;
+    top: 45px;
+    left: -15px;
+}
+.myra-timeline-content:before {
+    right: inherit;
+    left: -10px;
+}
+.myra-time-line-all-element .myra-img {
+    margin-right: 2%;
+}
+.myra-time-line-all-element .mayra-txt {
+    display: inline-block;
+    width: 77%;
+    float: right;
+}
+.myra-time-line-all-element .mayra-txt p {
+    width: 90%;
+    margin-bottom: 5px;
+}
+.myra-time-line-all-element .myra-date h3 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+.myra-time-line-all-element .myra-date p {
+    font-size: 16px;
+}
+.myra-timeline-content {
+    margin-left: 30px;
+}
+.become-a-sponsor {
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    padding: 20px 10px;
+}
+.sponsor-area-bg {
+    padding: 30px 0;
+}
+.become-a-sponsor-txt, .become-a-sponsor-btn {
+    width: 100%;
+}
+.become-a-sponsor-btn {
+    padding: 14px 0 0;
+}
+.become-a-sponsor-txt h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.become-a-sponsor-txt p {
+    font-size: 14px;
+    width: 100%;
+}
+.map-all-elements {
+    left: 2.5%;
+    width: 95%;
+}
+.map-all-elements i {
+    font-size: 46px;
+}
+.map-all-elements h3 {
+    font-size: 28px;
+}
+.map-over-contact-address {
+    margin-top: 20px;
+}
+.event-collection-grid-item {
+    max-width: 100%;
+}
+.panel-body p {
+    padding: 10px 10px;
+    word-break: normal;
+    line-height: 1.5;
+}
+.event-single-feature {
+    height: 290px;
+}
+.event-single-feature:hover .event-all-elements:before, .event-single-feature:hover .event-all-elements:after {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+.event-single-feature .event-feature-icon {
+    color: #FF6347;
+}
+.event-single-feature .event-feature-icon, .event-single-feature .event-feature-heading {
+    top: -30px;
+}
+.event-single-feature .event-feature-elements p {
+    transform: scale(1);
+    opacity: 1;
+}
+.event-single-feature .simple-btn {
+    top: -10px;
+    color: #FF6347;
+}
+
+.column-padding-minus-30 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.event-page-our-team .team-img img {
+    min-width: 100%;
+}
+.our-team-single .team-img-details {
+    bottom: 60px;
+    padding: 10px;
+}
+.our-team-single .social-list {
+    opacity: 1;
+    transform: translateY(-20px);
+    visibility: visible;
+}
+.event-page-our-pricing .pricing-elements p {
+    width: 95%;
+    margin: 10px auto;
+}
+.pricing-elements h4 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.section-our-pricing-area .minimal-btn.red-btn {
+    margin: 10px auto;
+}
+.pricing-elements h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.single-about {
+    padding: 30px 15px;
+    margin: 15px 0;
+}
+.section-latest-collection-area .col-md-6 {
+    padding: 0 15px;
+}
+.connect-now-txt h2 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.3;
+}
+.connect-now-area {
+    padding: 50px 0;
+}
+.myra-finance-welcome-section-content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.myra-finance-welcome-section-content p {
+    font-size: 14px;
+    width: 100%;
+    line-height: 1.5;
+}
+.myra-finance-logo {
+    margin-bottom: 50px;
+}
+.myra-finance-welcome-section-content input[type="email"] {
+    max-width: 90%;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.myra-finance-welcome-section-content h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.myra-finance-welcome-section-content input[type="submit"] {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.myra-finance-type-your-text h2, .myra-finance-type-your-text h2 span, .myra-finance-heading h2, .myra-finance-heading h2 span, .myra-finance-faq-area h2, .myra-finance-contact-heading h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.myra-finance-content-top {
+    margin-top: 50px;
+}
+.myra-single-what-we-do .fs1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.myra-single-what-we-do h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.myra-single-what-we-do p {
+    width: 100%;
+}
+.myra-finance-faq .myra-finance-faq-heading p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    letter-spacing: 2.6px;
+}
+.myra-finance-contact-heading p {
+    margin-bottom: 25px;
+}
+.myra-finance-faq .panel-body {
+    margin-left: 0px;
+    padding: 5px;
+}
+.myra-finance-faq .panel-body p {
+    padding: 10px 10px;
+}
+.panel-default>.panel-heading {
+    padding: 15px;
+}
+.myra-finance-contact input[type="text"], .myra-finance-contact input[type="email"], .myra-finance-contact textarea {
+    height: 45px;
+}
+.myra-finance-contact input[type="submit"] {
+    font-size: 14px;
+    padding: 11px 15px;
+}
+.myra-finance-contact {
+    width: 100%;
+    margin-top: 50px;
+}
+.myra-finance-clients-details {
+    height: 304px;
+}
+.myra-finance-clients-say-txt {
+    height: 245px;
+    padding: 0 20px;
+    margin: 0px 0 0px 0%;
+    max-width: 100%;
+}
+.myra-finance-clients-say-txt p {
+    padding: 40px 15px;
+}
+.myra-finance-clients-say-txt p:before {
+    top: 0%;
+    left: 50%;
+    font-size: 45px;
+}
+.rev-slider-thumb {
+    display: none !important;
+}
+.rev_slider_wrapper {
+    max-height: 500px !important;
+    min-height: 500px !important;
+}
+
+.rev-btn {
+    font-size: 14px !important;
+    line-height: 40px !important;
+    font-weight: 400 !important;
+    padding: 0px 25px !important;
+}
+.news-letter-elements form {
+    display: inline-block;
+    width: 100%;
+}
+.news-letter-elements input[type="submit"] {
+    font-size: 16px;
+    margin-top: 15px;
+}
+.news-letter-elements input[type="email"] {
+    max-width: 100%;
+    width: 100%;
+}
+.news-letter-elements p {
+    margin-top: 20px;
+}
+.product-faq-img {
+    height: auto;
+    width: 100%;
+    margin: 30px 0;
+}
+#welcome-section {
+    max-height: 500px;
+}
+.rev_slider_wrapper .minimal-btn {
+    padding: 10px 20px !important;
+    font-weight: 400 !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    display: block !important;
+    margin: 15px auto 0 !important;
+}
+.about-left-section h3 {
+    font-size: 24px;
+    margin-top: 0px;
+}
+.about-bottom-section-area {
+    margin-top: 50px;
+    padding: 40px 0px;
+}
+.left-side-txt {
+    margin-top: 30px;
+}
+.purchase-now-txt p {
+    font-size: 14px;
+}
+.section-purchase-now-area .red-btn {
+    font-size: 16px;
+}
+.event-page-our-pricing.section-padding {
+    padding-bottom: 50px;
+}
+.blog-head-section ul li {
+    padding: 10px 7px 10px 0px;
+}
+.blog-footer p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.single-blog {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.news-letter-elements h4 {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.latest-collection .latest-collection-all-elements {
+    background-color: rgba(0,0,0,.7);
+}
+.latest-collection .latest-collection-all-elements:after, .latest-collection .latest-collection-all-elements:before {
+    transform: scale(1);
+}
+.latest-collection .latest-collection-ico, .latest-collection .latest-collection-txt {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.single-feature {
+    border: 1px solid #FF1D1D;
+}
+.single-feature .feature-icon {
+    top: -20px;
+    color: #FF1D1D;
+}
+.single-feature .feature-heading {
+    top: -10px;
+}
+.single-feature .feature-elements {
+    transform: scale(1);
+    opacity: 1;
+}
+.read-more-purchase-area h4 {
+    font-size: 16px;
+}
+.btn-groups {
+    display: inline-block;
+    width: 100%;
+}
+.section-read-more-area .minimal-btn.black-btn, .section-read-more-area .minimal-btn.red-btn {
+    display: inline-block;
+}
+#about-bottom-slider {
+    margin-top: 20px;
+}
+.myra-overlay-menu:before {
+    width: 51%;
+}
+.contact-left-side-txt {
+    margin-bottom: 30px;
+}
+#pixiefy-animated-text, #product_main_title {
+    top: 27%;
+    font-size: 4em;
+    letter-spacing: -2px;
+}
+.welcome-section-area.elastic-product-welcome-area {
+    padding: 10% 0;
+}
+
+.elastic-section-padding {
+    padding: 60px 0 40px;
+}
+.bg-header-txt h2:before {
+    top: -40px;
+    font-size: 2em;
+}
+.elastic-left-side-element {
+    width: 100%;
+    margin: 10px auto 0;
+}
+div#myra-product-thumb {
+    position: static;
+    top: 0;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    left: 0;
+    margin: auto;
+}
+div#myra-product-thumb img {
+    margin: auto;
+}
+.elastic-left-side-element h3, .elastic-left-side-element h4 {
+    font-size: 28px;
+}
+.elastic-right-side-element {
+    margin-top: 40px;
+}
+.pricings .pricing .box-main, .pricings .pricing .box-second {
+
+    padding: 15px 15px;
+}
+
+.product-about-sections:before {
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    z-index: 1;
+}
+.product-about-sections {
+    position: relative;
+    margin-bottom: 30px;
+}
+.product-about-section .right-side-txt h2 {
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.product-about-section .right-side-txt p {
+    margin-bottom: 20px;
+    word-break: normal;
+    width: 100%;
+}
+.product-page-purchase-area h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.purchase-now {
+    height: 300px;
+}
+.blog-details {
+    padding: 10px;
+}
+.product-page-latest-blog .blog-head-section a h4 {
+    margin-top: 10px;
+}
+.contact-right-side input[type="text"], .contact-right-side input[type="email"], .contact-right-side textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #999999;
+    margin-bottom: 30px;
+    transition: all .4s ease-in-out;
+}
+.product-page-welcome-area .welcome-section-area-txt p {
+    margin: 20px 0 30px;
+}
+.product-page-welcome-area .myra-tbl {
+    text-align: center;
+}
+
+.welcome-section-area-txt h5 {
+    font-size: 16px;
+    width: 90%;
+}
+.free-trial-page-form input[type="text"], .free-trial-page-form input[type="email"] {
+    width: 200px;
+}
+.free-trial-page-form input[type="submit"] {
+    padding: 0px 25px;
+    font-size: 16px;
+}
+
+.margin-bottom-90 {
+    margin-bottom: 40px;
+}
+.seo-page-our-feature-area-start .single-features-ico {
+    float: none;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.seo-page-our-feature-area-start .left-side-txts .single-features-txt, .single-features-txt {
+    padding-left: 0px;
+    text-align: center;
+    width: 100%;
+}
+.single-seo-about {
+    margin-top: 20px;
+}
+.seo-page-our-feature-area-start .left-side-txts {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.pricing-content ul {
+    text-align: center;
+}
+.special-offer-ico, .special-offer-txt {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.margin-bottom-40 {
+    margin-bottom: 30px;
+}
+.special-offer-img {
+    margin-top: 30px;
+}
+.seo-score-left-side h2, .seo-score-left-side h2 span {
+    font-size: 20px;
+}
+.contact-input-txts {
+    bottom: 8px;
+}
+.free-trial-elements h2 {
+    font-size: 28px;
+}
+.free-trial-elements p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.seo-page-free-trial-area {
+    padding: 60px 0;
+}
+.seo-score-left-side p {
+    margin-bottom: 15px;
+}
+.team-img img {
+    width: 100%;
+}
+.single-faq {
+    margin-top: 30px;
+}
+.seo-page-welcome-section .welcome-section-area-txt h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.seo-page-welcome-section .welcome-section-area-txt h5 {
+    font-size: 14px;
+    width: 98%;
+}
+.seo-page-welcome-section .free-trial-page-form {
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+}
+.myra-watch-welcome-element .myra-content-tbl, .myra-watch-welcome-element {
+    height: 400px;
+}
+.myra-watch-welcome-content {
+    padding: 30px 15px;
+}
+.myra-watch-welcome-element h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.myra-watch-welcome-element p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.myra-watch-welcome-element-bottom {
+    margin-top: 20px;
+}
+.myra-watch-element-bottom-heading p, .myra-watch-welcome-bottom-left-content p {
+    width: 98%;
+}
+.myra-watch-welcome-bottom-left-content {
+    height: auto;
+    margin-bottom: 20px;
+}
+.myra-watch-welcome-section {
+    overflow: hidden;
+}
+.myra-single-watch-container {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.myra-watch-get-cunfusion-left {
+    height: 250px;
+    width: 100%;
+}
+.myra-watch-heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.watch-gallery-nav {
+    position: static;
+    top: 0%;
+    left: 0%;
+    right: auto;
+    transform: translateY(0%) translateX(0%) rotate(0deg);
+    text-align: center;
+    margin-bottom: 20px;
+}
+#myra-watch-gallery-item {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.myra-watch-newsletter-area, .myra-watch-clients-review.section-padding, .myra-watch-slider-area.section-padding {
+    padding: 60px 0;
+}
+.myra-watch-clients-review-txt {
+    height: auto;
+    margin-bottom: 30px;
+}
+.myra-watch-clients-review-txt p:before {
+    top: -5%;
+}
+.myra-watch-clients-review-txt p {
+    width: 100%;
+}
+.watch-gallery-nav ul li a {
+    font-size: 16px;
+}
+.watch-gallery-nav ul li {
+    padding: 5px 10px;
+}
+.myra-watch-element-bottom-heading {
+    text-align: center;
+    width: 96%;
+    margin: 0 auto 50px;
+    transform: translateX(0%);
+}
+#myra-watch-bottom-slider img {
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+.myra-watch-video-bg {
+    height: 300px;
+}
+.myra-watch-get-cunfusion-left h3 {
+    font-size: 28px;
+}
+.myra-watch-get-cunfusion-left p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.myra-watch-get-cunfusion-left .myra-content-tbl {
+    text-align: center;
+}
+.myra-watch-newsletter-area p {
+    margin-bottom: 20px;
+}
+.myra-watch-newsletter-area input[type="submit"] {
+    font-size: 14px;
+    padding: 10px 10px;
+    height: 35px;
+}
+.myra-watch-newsletter-area .input-types input[type="email"] {
+    height: 38px;
+}
+.myra-watch-clients-review-biodata {
+    top: auto;
+    transform: translate(-50%, 0%);
+    padding: 15px 15px;
+    bottom: 0;
+}
+.myra-watch-contact-info-left {
+    margin-bottom: 50px;
+}
+footer.myra-Watch-footer {
+    text-align: center;
+}
+.myra-watch-payment {
+    text-align: center;
+}
+.myra-Watch-copyright-txt {
+    margin: 20px 0;
+}
+
+
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+
+}
+
+
+/*      Mobile Layout: 320px   */
+@media only screen and (max-width: 479px) {
+
+.myra-footer-items {
+    width: 100%;
+    margin: 15px 0;
+}
+.timer-count{
+  width: 40%;
+  font-size: 28px;
+  margin-top: 20px;
+}
+.timer-text{
+  font-size: 18px;
+}
+.myra-finance-welcome-section-content input[type="email"] {
+    width: 90%;
+}
+.myra-finance-what-we-do .col-xs-6 {
+    width: 100%;
+}
+#pixiefy-animated-text, #product_main_title {
+    display: none !important;
+}
+.welcome-section-area.elastic-product-welcome-area {
+    padding: 25% 0;
+}
+.pricings .pricing .box-main, .pricings .pricing .box-second {
+    left: 0%;
+    width: 100%;
+    padding: 15px 15px;
+}
+.box-main.active {
+    opacity: 0;
+}
+.pricing ul.white-list {
+    padding-left: 30px;
+}
+.seo-page-about-section .col-xs-6 {
+    width: 100%;
+}
+.free-trial-page-form .input-types {
+    display: block;
+    margin-bottom: 10px;
+}
+.free-trial-page-form input[type="text"], .free-trial-page-form input[type="email"] {
+    width: 100%;
+}
+.seo-score-right-side-form {
+    padding: 20px 15px;
+}
+.seo-page-our-team-section-area .col-xs-6 {
+    width: 100%;
+}
+.myra-watch-contact-info .col-xs-6 {
+    width: 100%;
+}
+
+
+
+
+}
